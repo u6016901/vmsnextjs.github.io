@@ -339,9 +339,6 @@ export default function Home() {
     &lt;/style&gt;
   </noScript>
 
-  <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/js/main.min.js' id='unicamp-script-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/js/woo/general.min.js' id='unicamp-woo-general-js'></Script>
-    <Script id='isw-frontend-js-extra'></Script>
 
   
   
@@ -484,7 +481,7 @@ export default function Home() {
                               
                             </li>
                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-                            <Link href="ADMISSION">
+                            <Link href="https://unicamp.thememove.com/main/admissions/">
           <a>Admission</a>
         </Link>
                                 
@@ -1138,20 +1135,17 @@ export default function Home() {
                                               >
                                                 <div className="elementor-widget-container">
                                                   <div className="tm-button-wrapper">
-                                                    <a
-                                                      href="/news"
-                                                      className="tm-button-link tm-button style-flat tm-button-xs icon-right"
-                                                      role="button"
-                                                    >
-                                                      <div className="button-content-wrapper">
-                                                        <span className="button-text">
-                                                          View all news
-                                                        </span>
-                                                        <span className="button-icon">
-                                                          <i className="fas fa-long-arrow-right" />{" "}
-                                                        </span>
-                                                      </div>
-                                                    </a>
+                                                  <Link href="/news"><a
+                                        href="/posts"
+                                        className="tm-button-link tm-button style-flat tm-button-nm icon-right"
+                                        role="button"
+                                      >View all news</a>
+                                        
+                                      </Link>
+                                                      
+                                                    
+                                                      
+                                                    
                                                   </div>
                                                 </div>
                                               </div>
@@ -2249,20 +2243,13 @@ export default function Home() {
                                               >
                                                 <div className="elementor-widget-container">
                                                   <div className="tm-button-wrapper">
-                                                    <a
-                                                      href="/news"
-                                                      className="tm-button-link tm-button style-flat tm-button-nm icon-right"
-                                                      role="button"
-                                                    >
-                                                      <div className="button-content-wrapper">
-                                                        <span className="button-text">
-                                                          View all events
-                                                        </span>
-                                                        <span className="button-icon">
-                                                          <i className="fas fa-long-arrow-right" />{" "}
-                                                        </span>
-                                                      </div>
-                                                    </a>
+                                                  <Link href="/posts"><a
+                                        href="/posts"
+                                        className="tm-button-link tm-button style-flat tm-button-nm icon-right"
+                                        role="button"
+                                      >View all news</a>
+                                        
+                                      </Link>
                                                   </div>
                                                 </div>
                                               </div>
@@ -2332,18 +2319,20 @@ export default function Home() {
                                                             }}
                                                           >
                                                             <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
+                                                              
+<Link href="/news"><a
+                                                                
                                                                 className="event-image unicamp-image"
                                                               >
-                                                                <div className="post-thumbnail">
+                                                                
                                                                   <img
                                                                     src="https://raw.githubusercontent.com/jongning/jongning.github.io/main/pictures/seniorProjectPhoto/home/media-campus-gallery-01-480x298.jpg"
                                                                     alt="event-10"
                                                                     width={480}
-                                                                  />{" "}
-                                                                </div>
+                                                                  />
+                                                                
                                                               </a>
+                                                              </Link>
                                                               <div className="event-caption">
                                                                 <div className="event-start-date">
                                                                   <span>
@@ -2351,16 +2340,23 @@ export default function Home() {
                                                                   </span>
                                                                 </div>
                                                                 <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
-                                                                    className="link-in-title"
-                                                                  >
-                                                                    The Role of
-                                                                    Conflict in
-                                                                    a Political
-                                                                    Account of
-                                                                    Common Goods
-                                                                  </a>
+                                                                <Link href="/news"><a
+                                                                
+                                                                className="event-image unicamp-image"
+                                                              >
+                                                                
+                                                                  <img
+                                                                    src="https://raw.githubusercontent.com/jongning/jongning.github.io/main/pictures/seniorProjectPhoto/home/media-campus-gallery-01-480x298.jpg"
+                                                                    alt="event-10"
+                                                                    width={480}
+                                                                  /> The Role of
+                                                                  Conflict in
+                                                                  a Political
+                                                                  Account of
+                                                                  Common Goods
+                                                                
+                                                              </a>
+                                                              </Link>
                                                                 </h3>
                                                                 <div className="event-time">
                                                                   10:30 am -
@@ -2382,18 +2378,18 @@ export default function Home() {
                                                             }}
                                                           >
                                                             <div className="unicamp-box">
-                                                              <a
+                                                            <Link href="/news"><a
                                                                 href="/news"
                                                                 className="event-image unicamp-image"
                                                               >
-                                                                <div className="post-thumbnail">
+                                                                
                                                                   <img
                                                                     src="https://unicamp.thememove.com/main/wp-content/uploads/sites/2/2021/01/event-09-480x290.jpg"
                                                                     alt="event-09"
                                                                     width={480}
-                                                                  />{" "}
-                                                                </div>
-                                                              </a>
+                                                                  /></a>
+                                                                 </Link>
+                                                              
                                                               <div className="event-caption">
                                                                 <div className="event-start-date">
                                                                   <span>
@@ -2401,7 +2397,7 @@ export default function Home() {
                                                                   </span>
                                                                 </div>
                                                                 <h3 className="event-title post-title-2-rows">
-                                                                  <a
+                                                                <Link href="/news"><a
                                                                     href="/news"
                                                                     className="link-in-title"
                                                                   >
@@ -2410,7 +2406,7 @@ export default function Home() {
                                                                     Machines
                                                                     Judging
                                                                     Humans
-                                                                  </a>
+                                                                  </a></Link>
                                                                 </h3>
                                                                 <div className="event-time">
                                                                   10:30 am -
@@ -2419,406 +2415,15 @@ export default function Home() {
                                                               </div>
                                                             </div>
                                                           </div>
-                                                          <div
-                                                            id="event-169"
-                                                            className="swiper-slide post-169 tp_event type-tp_event status-publish has-post-thumbnail hentry event-speaker-bellezza event-speaker-emerson event-speaker-lucinda event-speaker-marabel event-speaker-orabelle event-speaker-savanna-walker tp_event_category-reading tp_event_tag-career tp_event_tag-online-learning tp_event_tag-research swiper-slide-duplicate swiper-slide-prev"
-                                                            data-swiper-slide-index={
-                                                              4
-                                                            }
-                                                            style={{
-                                                              width:
-                                                                "326.667px",
-                                                              marginRight: 30
-                                                            }}
-                                                          >
-                                                            <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
-                                                                className="event-image unicamp-image"
-                                                              >
-                                                                <div className="post-thumbnail">
-                                                                  <img
-                                                                    src="https://unicamp.thememove.com/main/wp-content/uploads/sites/2/2021/01/event-08-480x290.jpg"
-                                                                    alt="event-08"
-                                                                    width={480}
-                                                                  />{" "}
-                                                                </div>
-                                                              </a>
-                                                              <div className="event-caption">
-                                                                <div className="event-start-date">
-                                                                  <span>
-                                                                    Jul 16
-                                                                  </span>
-                                                                </div>
-                                                                <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
-                                                                    className="link-in-title"
-                                                                  >
-                                                                    Does
-                                                                    Political
-                                                                    Augustinianism
-                                                                    Help?
-                                                                  </a>
-                                                                </h3>
-                                                                <div className="event-time">
-                                                                  2:30 pm - 4:00
-                                                                  pm
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                          <div
-                                                            id="event-173"
-                                                            className="swiper-slide post-173 tp_event type-tp_event status-publish has-post-thumbnail hentry event-speaker-bellezza event-speaker-charlie event-speaker-emerson event-speaker-lucinda event-speaker-marabel event-speaker-orabelle tp_event_category-reading tp_event_tag-career tp_event_tag-online-learning tp_event_tag-research swiper-slide-visible swiper-slide-active"
-                                                            data-swiper-slide-index={
-                                                              0
-                                                            }
-                                                            style={{
-                                                              width:
-                                                                "326.667px",
-                                                              marginRight: 30
-                                                            }}
-                                                          >
-                                                            <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
-                                                                className="event-image unicamp-image"
-                                                              >
-                                                                <div className="post-thumbnail">
-                                                                  <img
-                                                                    src="https://raw.githubusercontent.com/jongning/jongning.github.io/main/pictures/seniorProjectPhoto/home/74694537_114386303139423_7632526.jpg"
-                                                                    alt="event-12"
-                                                                    width={480}
-                                                                  />{" "}
-                                                                </div>
-                                                              </a>
-                                                              <div className="event-caption">
-                                                                <div className="event-start-date">
-                                                                  <span>
-                                                                    Apr 19
-                                                                  </span>
-                                                                </div>
-                                                                <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
-                                                                    className="link-in-title"
-                                                                  >
-                                                                    Roadmap to
-                                                                    the
-                                                                    Sustainable
-                                                                    Development
-                                                                    Goals
-                                                                  </a>
-                                                                </h3>
-                                                                <div className="event-time">
-                                                                  2:30 pm - 3:30
-                                                                  pm
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                          <div
-                                                            id="event-172"
-                                                            className="swiper-slide post-172 tp_event type-tp_event status-publish has-post-thumbnail hentry event-speaker-charlie event-speaker-emerson event-speaker-lucinda event-speaker-marabel event-speaker-orabelle event-speaker-savanna-walker tp_event_category-reading tp_event_tag-career tp_event_tag-online-learning tp_event_tag-research swiper-slide-visible swiper-slide-next"
-                                                            data-swiper-slide-index={
-                                                              1
-                                                            }
-                                                            style={{
-                                                              width:
-                                                                "326.667px",
-                                                              marginRight: 30
-                                                            }}
-                                                          >
-                                                            <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
-                                                                className="event-image unicamp-image"
-                                                              >
-                                                                <div className="post-thumbnail">
-                                                                  <img
-                                                                    src="https://raw.githubusercontent.com/jongning/jongning.github.io/main/pictures/seniorProjectPhoto/home/CL%20building.jpg"
-                                                                    alt="event-11"
-                                                                    width={480}
-                                                                  />{" "}
-                                                                </div>
-                                                              </a>
-                                                              <div className="event-caption">
-                                                                <div className="event-start-date">
-                                                                  <span>
-                                                                    Dec 28
-                                                                  </span>
-                                                                </div>
-                                                                <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
-                                                                    className="link-in-title"
-                                                                  >
-                                                                    Research in
-                                                                    Distance
-                                                                    Education
-                                                                    (RIDE)
-                                                                    conference
-                                                                    2021
-                                                                  </a>
-                                                                </h3>
-                                                                <div className="event-time">
-                                                                  3:30 pm - 4:30
-                                                                  pm
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                          <div
-                                                            id="event-171"
-                                                            className="swiper-slide post-171 tp_event type-tp_event status-publish has-post-thumbnail hentry event-speaker-charlie event-speaker-emerson event-speaker-lucinda event-speaker-marabel event-speaker-orabelle event-speaker-savanna-walker tp_event_category-reading tp_event_tag-career tp_event_tag-online-learning tp_event_tag-research swiper-slide-visible"
-                                                            data-swiper-slide-index={
-                                                              2
-                                                            }
-                                                            style={{
-                                                              width:
-                                                                "326.667px",
-                                                              marginRight: 30
-                                                            }}
-                                                          >
-                                                            <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
-                                                                className="event-image unicamp-image"
-                                                              >
-                                                                <div className="post-thumbnail">
-                                                                  <img
-                                                                    src="https://raw.githubusercontent.com/jongning/jongning.github.io/main/pictures/seniorProjectPhoto/home/media-campus-gallery-01-480x298.jpg"
-                                                                    alt="event-10"
-                                                                    width={480}
-                                                                  />{" "}
-                                                                </div>
-                                                              </a>
-                                                              <div className="event-caption">
-                                                                <div className="event-start-date">
-                                                                  <span>
-                                                                    Aug 20
-                                                                  </span>
-                                                                </div>
-                                                                <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
-                                                                    className="link-in-title"
-                                                                  >
-                                                                    The Role of
-                                                                    Conflict in
-                                                                    a Political
-                                                                    Account of
-                                                                    Common Goods
-                                                                  </a>
-                                                                </h3>
-                                                                <div className="event-time">
-                                                                  10:30 am -
-                                                                  11:30 am
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                          <div
-                                                            id="event-170"
-                                                            className="swiper-slide post-170 tp_event type-tp_event status-publish has-post-thumbnail hentry event-speaker-bellezza event-speaker-charlie event-speaker-emerson event-speaker-lucinda event-speaker-orabelle event-speaker-savanna-walker tp_event_category-reading tp_event_tag-career tp_event_tag-online-learning tp_event_tag-research"
-                                                            data-swiper-slide-index={
-                                                              3
-                                                            }
-                                                            style={{
-                                                              width:
-                                                                "326.667px",
-                                                              marginRight: 30
-                                                            }}
-                                                          >
-                                                            <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
-                                                                className="event-image unicamp-image"
-                                                              >
-                                                                <div className="post-thumbnail">
-                                                                  <img
-                                                                    src="https://unicamp.thememove.com/main/wp-content/uploads/sites/2/2021/01/event-09-480x290.jpg"
-                                                                    alt="event-09"
-                                                                    width={480}
-                                                                  />{" "}
-                                                                </div>
-                                                              </a>
-                                                              <div className="event-caption">
-                                                                <div className="event-start-date">
-                                                                  <span>
-                                                                    Jun 14
-                                                                  </span>
-                                                                </div>
-                                                                <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
-                                                                    className="link-in-title"
-                                                                  >
-                                                                    Ethics in AI
-                                                                    Live Event:
-                                                                    Machines
-                                                                    Judging
-                                                                    Humans
-                                                                  </a>
-                                                                </h3>
-                                                                <div className="event-time">
-                                                                  10:30 am -
-                                                                  11:30 am
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                          <div
-                                                            id="event-169"
-                                                            className="swiper-slide post-169 tp_event type-tp_event status-publish has-post-thumbnail hentry event-speaker-bellezza event-speaker-emerson event-speaker-lucinda event-speaker-marabel event-speaker-orabelle event-speaker-savanna-walker tp_event_category-reading tp_event_tag-career tp_event_tag-online-learning tp_event_tag-research swiper-slide-duplicate-prev"
-                                                            data-swiper-slide-index={
-                                                              4
-                                                            }
-                                                            style={{
-                                                              width:
-                                                                "326.667px",
-                                                              marginRight: 30
-                                                            }}
-                                                          >
-                                                            <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
-                                                                className="event-image unicamp-image"
-                                                              >
-                                                                <div className="post-thumbnail">
-                                                                  <img
-                                                                    src="https://unicamp.thememove.com/main/wp-content/uploads/sites/2/2021/01/event-08-480x290.jpg"
-                                                                    alt="event-08"
-                                                                    width={480}
-                                                                  />{" "}
-                                                                </div>
-                                                              </a>
-                                                              <div className="event-caption">
-                                                                <div className="event-start-date">
-                                                                  <span>
-                                                                    Jul 16
-                                                                  </span>
-                                                                </div>
-                                                                <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
-                                                                    className="link-in-title"
-                                                                  >
-                                                                    Does
-                                                                    Political
-                                                                    Augustinianism
-                                                                    Help?
-                                                                  </a>
-                                                                </h3>
-                                                                <div className="event-time">
-                                                                  2:30 pm - 4:00
-                                                                  pm
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                          <div
-                                                            id="event-173"
-                                                            className="swiper-slide post-173 tp_event type-tp_event status-publish has-post-thumbnail hentry event-speaker-bellezza event-speaker-charlie event-speaker-emerson event-speaker-lucinda event-speaker-marabel event-speaker-orabelle tp_event_category-reading tp_event_tag-career tp_event_tag-online-learning tp_event_tag-research swiper-slide-duplicate swiper-slide-duplicate-active"
-                                                            data-swiper-slide-index={
-                                                              0
-                                                            }
-                                                            style={{
-                                                              width:
-                                                                "326.667px",
-                                                              marginRight: 30
-                                                            }}
-                                                          >
-                                                            <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
-                                                                className="event-image unicamp-image"
-                                                              >
-                                                                <div className="post-thumbnail">
-                                                                  <img
-                                                                    src="https://raw.githubusercontent.com/jongning/jongning.github.io/main/pictures/seniorProjectPhoto/home/74694537_114386303139423_7632526.jpg"
-                                                                    alt="event-12"
-                                                                    width={480}
-                                                                  />{" "}
-                                                                </div>
-                                                              </a>
-                                                              <div className="event-caption">
-                                                                <div className="event-start-date">
-                                                                  <span>
-                                                                    Apr 19
-                                                                  </span>
-                                                                </div>
-                                                                <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
-                                                                    className="link-in-title"
-                                                                  >
-                                                                    Roadmap to
-                                                                    the
-                                                                    Sustainable
-                                                                    Development
-                                                                    Goals
-                                                                  </a>
-                                                                </h3>
-                                                                <div className="event-time">
-                                                                  2:30 pm - 3:30
-                                                                  pm
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                          </div>
-                                                          <div
-                                                            id="event-172"
-                                                            className="swiper-slide post-172 tp_event type-tp_event status-publish has-post-thumbnail hentry event-speaker-charlie event-speaker-emerson event-speaker-lucinda event-speaker-marabel event-speaker-orabelle event-speaker-savanna-walker tp_event_category-reading tp_event_tag-career tp_event_tag-online-learning tp_event_tag-research swiper-slide-duplicate swiper-slide-duplicate-next"
-                                                            data-swiper-slide-index={
-                                                              1
-                                                            }
-                                                            style={{
-                                                              width:
-                                                                "326.667px",
-                                                              marginRight: 30
-                                                            }}
-                                                          >
-                                                            <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
-                                                                className="event-image unicamp-image"
-                                                              >
-                                                                <div className="post-thumbnail">
-                                                                  <img
-                                                                    src="https://raw.githubusercontent.com/jongning/jongning.github.io/main/pictures/seniorProjectPhoto/home/CL%20building.jpg"
-                                                                    alt="event-11"
-                                                                    width={480}
-                                                                  />{" "}
-                                                                </div>
-                                                              </a>
-                                                              <div className="event-caption">
-                                                                <div className="event-start-date">
-                                                                  <span>
-                                                                    Dec 28
-                                                                  </span>
-                                                                </div>
-                                                                <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
-                                                                    className="link-in-title"
-                                                                  >
-                                                                    Research in
-                                                                    Distance
-                                                                    Education
-                                                                    (RIDE)
-                                                                    conference
-                                                                    2021
-                                                                  </a>
-                                                                </h3>
-                                                                <div className="event-time">
-                                                                  3:30 pm - 4:30
-                                                                  pm
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                          </div>
+                                                          
+                                                          
+                                                          
+                                                            
+                                                          
+                                                          
+                                                          
+                                                          
+                                                          
                                                           <div
                                                             id="event-171"
                                                             className="swiper-slide post-171 tp_event type-tp_event status-publish has-post-thumbnail hentry event-speaker-charlie event-speaker-emerson event-speaker-lucinda event-speaker-marabel event-speaker-orabelle event-speaker-savanna-walker tp_event_category-reading tp_event_tag-career tp_event_tag-online-learning tp_event_tag-research swiper-slide-duplicate"
@@ -2832,18 +2437,19 @@ export default function Home() {
                                                             }}
                                                           >
                                                             <div className="unicamp-box">
-                                                              <a
-                                                                href="/news"
+                                                            <Link href="/news"><a
+                                                                
                                                                 className="event-image unicamp-image"
                                                               >
-                                                                <div className="post-thumbnail">
+                                                                
                                                                   <img
                                                                     src="https://raw.githubusercontent.com/jongning/jongning.github.io/main/pictures/seniorProjectPhoto/home/media-campus-gallery-01-480x298.jpg"
                                                                     alt="event-10"
                                                                     width={480}
-                                                                  />{" "}
-                                                                </div>
+                                                                  />
+                                                                
                                                               </a>
+                                                              </Link>
                                                               <div className="event-caption">
                                                                 <div className="event-start-date">
                                                                   <span>
@@ -2851,8 +2457,8 @@ export default function Home() {
                                                                   </span>
                                                                 </div>
                                                                 <h3 className="event-title post-title-2-rows">
-                                                                  <a
-                                                                    href="/news"
+                                                                <Link href="/news"><a
+                                                                    
                                                                     className="link-in-title"
                                                                   >
                                                                     The Role of
@@ -2860,7 +2466,7 @@ export default function Home() {
                                                                     a Political
                                                                     Account of
                                                                     Common Goods
-                                                                  </a>
+                                                                  </a></Link>
                                                                 </h3>
                                                                 <div className="event-time">
                                                                   10:30 am -
@@ -3329,20 +2935,7 @@ export default function Home() {
                                               </div>
                                             </a>
                                           </div>
-                                          <div className="item elementor-repeater-item-4f48939">
-                                            <a
-                                              className="link"
-                                              href="/news"
-                                            >
-                                              <div className="list-header">
-                                                <div className="text-wrap">
-                                                  <div className="text">
-                                                    News &amp; Spotlight
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </a>
-                                          </div>
+                                          
                                           <div className="item elementor-repeater-item-3cfbe35">
                                             <a
                                               className="link"

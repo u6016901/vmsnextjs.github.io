@@ -105,35 +105,8 @@ export default function News() {
 </>
 
     
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rbtools.min.js' id='tp-tools-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rs6.min.js' id='revmin-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/js/tutor/general.min.js' id='unicamp-course-general-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/libs/lightGallery/js/lightgallery-all.min.js' id='lightgallery-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/libs/countTo/jquery.countTo.min.js' id='count-to-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/widget-counter.js' id='unicamp-widget-counter-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/group-widget-carousel.js' id='unicamp-group-widget-carousel-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/js/frontend-modules.min.js' id='elementor-frontend-modules-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js' id='share-link-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js' id='elementor-dialog-js'></Script>
-  <Script src='./home/frontend.min.js' id='elementor-pro-frontend-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js' id='pro-preloaded-elements-handlers-js'></Script>
-    <Script src='./home/preloaded-modules.min.js' id='preloaded-modules-js'></Script>
-    <Script src="./home/swiper-wrapper.min.js.download" id="unicamp-swiper-wrapper-js"></Script>
-    <Script src="./home/jquery.smartmenus.min.js.download" id="smartmenus-js"></Script>
-    <Script src="./home/jquery.growl.min.js.download" id="growl-js"></Script>
-    <Script src="./home/nice-select.min.js.download" id="unicamp-nice-select-js"></Script>
-    <Script id="./home/unicamp-Script-js-extra"></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/quicktags.min.js' id='quicktags-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/mouse.min.js' id='jquery-ui-mouse-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/sortable.min.js' id='jquery-ui-sortable-js'></Script>
-    <Script src='./home/plyr.polyfilled.min.js' id='tutor-plyr-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/vendor/regenerator-runtime.min.js' id='regenerator-runtime-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/hooks.min.js' id='wp-hooks-js'></Script>
-    <Script src='./home/i18n.min.js' id='wp-i18n-js'></Script>
+
+
     
 
   <link
@@ -2316,7 +2289,7 @@ export default function News() {
                             >
                               <div className="elementor-column-wrap elementor-element-populated">
                                 <div className="elementor-widget-wrap">
-                                  <div
+                                <div
                                     className="elementor-element elementor-element-56f8ba6 elementor-widget elementor-widget-tm-heading"
                                     data-id="56f8ba6"
                                     data-element_type="widget"
@@ -2355,54 +2328,37 @@ export default function News() {
                                           </a>
                                         </div>
                                         <div className="item elementor-repeater-item-4f48939">
-                                          <a
-                                            className="link"
-                                            href="/news"
-                                          >
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">
-                                                  News &amp; Spotlight
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/news">
+          <a>News &amp; Spotlight</a>
+        
+      
+            </Link>
                                         </div>
                                         <div className="item elementor-repeater-item-882f063">
-                                          <a
-                                            className="link"
-                                            href="/alumni"
-                                          >
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">
-                                                  Alumni
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/alumni">
+          <a>Alumni</a>
+        
+      
+            </Link>
                                         </div>
                                         <div className="item elementor-repeater-item-9052523">
-                                          <a className="link" href="/cs">
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">CS</div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/cs">
+          <a>CS</a>
+        
+      
+            </Link>
                                         </div>
                                         <div className="item elementor-repeater-item-450b61a">
-                                          <a className="link" href="/it">
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">IT</div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/it">
+          <a>IT</a>
+        
+      
+            </Link>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
+
                                   <div
                                     className="elementor-element elementor-element-832f692 elementor-widget elementor-widget-spacer"
                                     data-id="832f692"

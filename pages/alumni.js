@@ -1856,7 +1856,7 @@ export default function Alumni() {
                             >
                               <div className="elementor-column-wrap elementor-element-populated">
                                 <div className="elementor-widget-wrap">
-                                  <div
+                                <div
                                     className="elementor-element elementor-element-56f8ba6 elementor-widget elementor-widget-tm-heading"
                                     data-id="56f8ba6"
                                     data-element_type="widget"
@@ -1895,54 +1895,37 @@ export default function Alumni() {
                                           </a>
                                         </div>
                                         <div className="item elementor-repeater-item-4f48939">
-                                          <a
-                                            className="link"
-                                            href="/news"
-                                          >
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">
-                                                  News &amp; Spotlight
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/news">
+          <a>News &amp; Spotlight</a>
+        
+      
+            </Link>
                                         </div>
                                         <div className="item elementor-repeater-item-882f063">
-                                          <a
-                                            className="link"
-                                            href="/alumni"
-                                          >
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">
-                                                  Alumni
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/alumni">
+          <a>Alumni</a>
+        
+      
+            </Link>
                                         </div>
                                         <div className="item elementor-repeater-item-9052523">
-                                          <a className="link" href="/cs">
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">CS</div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/cs">
+          <a>CS</a>
+        
+      
+            </Link>
                                         </div>
                                         <div className="item elementor-repeater-item-450b61a">
-                                          <a className="link" href="/it">
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">IT</div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/it">
+          <a>IT</a>
+        
+      
+            </Link>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
+
                                   <div
                                     className="elementor-element elementor-element-832f692 elementor-widget elementor-widget-spacer"
                                     data-id="832f692"
