@@ -42,35 +42,7 @@ export default function Home() {
     <link rel='stylesheet' id='elementor-frontend-legacy-css' href='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css' media='all' />
     <link rel='stylesheet' id='elementor-frontend-css' href='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/css/frontend.min.css' media='all' />
     
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rbtools.min.js' id='tp-tools-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rs6.min.js' id='revmin-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/js/tutor/general.min.js' id='unicamp-course-general-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/libs/lightGallery/js/lightgallery-all.min.js' id='lightgallery-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/libs/countTo/jquery.countTo.min.js' id='count-to-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/widget-counter.js' id='unicamp-widget-counter-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/group-widget-carousel.js' id='unicamp-group-widget-carousel-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/js/frontend-modules.min.js' id='elementor-frontend-modules-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js' id='share-link-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js' id='elementor-dialog-js'></Script>
-  <Script src='./home/frontend.min.js' id='elementor-pro-frontend-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js' id='pro-preloaded-elements-handlers-js'></Script>
-    <Script src='./home/preloaded-modules.min.js' id='preloaded-modules-js'></Script>
-    <Script src="./home/swiper-wrapper.min.js.download" id="unicamp-swiper-wrapper-js"></Script>
-    <Script src="./home/jquery.smartmenus.min.js.download" id="smartmenus-js"></Script>
-    <Script src="./home/jquery.growl.min.js.download" id="growl-js"></Script>
-    <Script src="./home/nice-select.min.js.download" id="unicamp-nice-select-js"></Script>
-    <Script id="./home/unicamp-Script-js-extra"></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/quicktags.min.js' id='quicktags-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/mouse.min.js' id='jquery-ui-mouse-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/sortable.min.js' id='jquery-ui-sortable-js'></Script>
-    <Script src='./home/plyr.polyfilled.min.js' id='tutor-plyr-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/vendor/regenerator-runtime.min.js' id='regenerator-runtime-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/hooks.min.js' id='wp-hooks-js'></Script>
-    <Script src='./home/i18n.min.js' id='wp-i18n-js'></Script>
+    
     
 
   <link
@@ -1136,7 +1108,7 @@ export default function Home() {
                                                 <div className="elementor-widget-container">
                                                   <div className="tm-button-wrapper">
                                                   <Link href="/news"><a
-                                        href="/posts"
+                                        
                                         className="tm-button-link tm-button style-flat tm-button-nm icon-right"
                                         role="button"
                                       >View all news</a>
@@ -1245,13 +1217,16 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    Most
+                                                                  
+<Link href="/news">
+          <a>Most
                                                                     students
                                                                     pleased with
                                                                     their
                                                                     digital
-                                                                    learning
+                                                                    learning</a>
+        </Link>
+                                                                    
                                                                   
                                                                 </h3>
                                                                 <div className="post-meta">
@@ -1325,13 +1300,15 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    Gender
+                                                                <Link href="/news">
+          
+                                                                    <a>Gender
                                                                     inequality
                                                                     in higher
                                                                     education
                                                                     persists
-                                                                  
+                                                                    </a>
+                                                                    </Link>
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1403,14 +1380,14 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    University
-                                                                    of Cambridge
-                                                                    commits to a
-                                                                    major new
-                                                                    centre for
-                                                                    music
-                                                                    performance
+                                                                <Link href="/news">
+          <a>Most
+                                                                    students
+                                                                    pleased with
+                                                                    their
+                                                                    digital
+                                                                    learning</a>
+        </Link>
                                                                   
                                                                 </h3>
                                                                 <div className="post-meta">
@@ -1483,14 +1460,14 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    Autism rates
-                                                                    have
-                                                                    increased
-                                                                    and show
-                                                                    differences
-                                                                    in ethnic
-                                                                    minorities
+                                                                <Link href="/news">
+          <a>Most
+                                                                    students
+                                                                    pleased with
+                                                                    their
+                                                                    digital
+                                                                    learning</a>
+        </Link>
                                                                   
                                                                 </h3>
                                                                 <div className="post-meta">
@@ -1565,14 +1542,14 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    Most
-                                                                    students say
-                                                                    their mental
-                                                                    health
-                                                                    suffered in
-                                                                    pandemic
-                                                                  
+                                                                <Link href="/posts">
+          <a>Most
+                                                                    students
+                                                                    pleased with
+                                                                    their
+                                                                    digital
+                                                                    learning</a>
+        </Link>
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1644,13 +1621,9 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    Most
-                                                                    students
-                                                                    pleased with
-                                                                    their
-                                                                    digital
-                                                                    learning
+                                                                <Link href="/posts">
+          <a>Congrats to all people!!!</a>
+        </Link>
                                                                   
                                                                 </h3>
                                                                 <div className="post-meta">
@@ -1724,13 +1697,9 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    Gender
-                                                                    inequality
-                                                                    in higher
-                                                                    education
-                                                                    persists
-                                                                  
+                                                                <Link href="/posts">
+          <a>I love ABAC, do you?</a>
+        </Link>
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1802,14 +1771,9 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    University
-                                                                    of Cambridge
-                                                                    commits to a
-                                                                    major new
-                                                                    centre for
-                                                                    music
-                                                                    performance
+                                                                <Link href="/posts">
+          <a>I love Sci-tech!!!</a>
+        </Link>
                                                                   
                                                                 </h3>
                                                                 <div className="post-meta">
@@ -1882,14 +1846,9 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    Autism rates
-                                                                    have
-                                                                    increased
-                                                                    and show
-                                                                    differences
-                                                                    in ethnic
-                                                                    minorities
+                                                                <Link href="/posts">
+          <a>A.Chayapol is the best Ajarn ever!!!</a>
+        </Link>
                                                                   
                                                                 </h3>
                                                                 <div className="post-meta">
@@ -1964,14 +1923,9 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    Most
-                                                                    students say
-                                                                    their mental
-                                                                    health
-                                                                    suffered in
-                                                                    pandemic
-                                                                  
+                                                                <Link href="/posts">
+          <a>Give me A for our senior project!!!</a>
+        </Link>
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -2043,14 +1997,9 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <link href="/posts"/>
-                                                                    Most
-                                                                    students
-                                                                    pleased with
-                                                                    their
-                                                                    digital
-                                                                    learning
-                                                                  
+                                                                <Link href="/posts">
+          <a>Your subjects are fun to learn, A.Chayapol!!!</a>
+        </Link>
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -2244,7 +2193,7 @@ export default function Home() {
                                                 <div className="elementor-widget-container">
                                                   <div className="tm-button-wrapper">
                                                   <Link href="/posts"><a
-                                        href="/posts"
+                                        
                                         className="tm-button-link tm-button style-flat tm-button-nm icon-right"
                                         role="button"
                                       >View all news</a>
@@ -2379,7 +2328,7 @@ export default function Home() {
                                                           >
                                                             <div className="unicamp-box">
                                                             <Link href="/news"><a
-                                                                href="/news"
+                                                                
                                                                 className="event-image unicamp-image"
                                                               >
                                                                 
@@ -2398,7 +2347,7 @@ export default function Home() {
                                                                 </div>
                                                                 <h3 className="event-title post-title-2-rows">
                                                                 <Link href="/news"><a
-                                                                    href="/news"
+                                                                    
                                                                     className="link-in-title"
                                                                   >
                                                                     Ethics in AI
@@ -2922,18 +2871,9 @@ export default function Home() {
                                       <div className="elementor-widget-container">
                                         <div className="unicamp-list">
                                           <div className="item elementor-repeater-item-de25e53">
-                                            <a
-                                              className="link"
-                                              href="/staff"
-                                            >
-                                              <div className="list-header">
-                                                <div className="text-wrap">
-                                                  <div className="text">
-                                                    Staff
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            </a>
+                                          <Link href="/staff">
+          <a>STAFF</a>
+        </Link>
                                           </div>
                                           
                                           <div className="item elementor-repeater-item-3cfbe35">
@@ -3454,9 +3394,9 @@ export default function Home() {
             
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
-            <link href="/news"/>
-              <div className="menu-item-wrap"><span className="menu-item-title">News &amp; Spotlight</span>
-              </div>
+          <Link href="/news">
+              <a>className="menu-item-wrap"<span className="menu-item-title">News &amp; Spotlight</span></a>
+              </Link>
             
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">

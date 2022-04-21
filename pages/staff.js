@@ -1516,18 +1516,9 @@ export default function Staff() {
                                     <div className="elementor-widget-container">
                                       <div className="unicamp-list">
                                         <div className="item elementor-repeater-item-de25e53">
-                                          <a
-                                            className="link"
-                                            href="/staff"
-                                          >
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">
-                                                  Staff
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/staff">
+          <a>STAFF</a>
+        </Link>
                                         </div>
                                         <div className="item elementor-repeater-item-4f48939">
                                         <Link href="/news">
