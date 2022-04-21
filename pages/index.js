@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Script from 'next/script'
-
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -51,7 +51,6 @@ export default function Home() {
     <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/libs/countTo/jquery.countTo.min.js' id='count-to-js'></Script>
     <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/widget-counter.js' id='unicamp-widget-counter-js'></Script>
     <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/group-widget-carousel.js' id='unicamp-group-widget-carousel-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js' id='elementor-webpack-runtime-js'></Script>
     <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/js/frontend-modules.min.js' id='elementor-frontend-modules-js'></Script>
     <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js' id='share-link-js'></Script>
     <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js' id='elementor-dialog-js'></Script>
@@ -362,10 +361,10 @@ export default function Home() {
                 <div className="top-bar-info">
                   <ul className="info-list">
                     <li className="info-item">
-                      <a href="tel:+8819906886" className="info-link">
+                      <link href="tel:+8819906886" className="info-link"/>
                         <i className="info-icon far fa-phone" />
                         <span className="info-text">(66) 02 300 4543</span>
-                      </a>
+                      
                     </li>
                     <li className="info-item">
                       <a
@@ -392,32 +391,40 @@ export default function Home() {
                       className="menu__container sm sm-simple"
                     >
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1444 level-1">
-                        <a href="/cs">
+                      <Link href="cs">
+          <a>CS</a>
+        </Link>
                           <div className="menu-item-wrap">
                             <span className="menu-item-title">CS</span>
                           </div>
-                        </a>
+                        
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1284 level-1">
-                        <a href="/it">
+                      <Link href="it">
+          <a>IT</a>
+        </Link>
                           <div className="menu-item-wrap">
                             <span className="menu-item-title">IT</span>
                           </div>
-                        </a>
+                        
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1460 level-1">
-                        <a href="/staff">
+                      <Link href="staff">
+          <a>STAFF</a>
+        </Link>
                           <div className="menu-item-wrap">
                             <span className="menu-item-title">STAFF</span>
                           </div>
-                        </a>
+                        
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-886 level-1">
-                        <a href="/alumni">
+                      <Link href="alumni">
+          <a>ALUMNI</a>
+        </Link>
                           <div className="menu-item-wrap">
                             <span className="menu-item-title">ALUMNI</span>
                           </div>
-                        </a>
+                        
                       </li>
                     </ul>
                   </nav>
@@ -443,7 +450,9 @@ export default function Home() {
                 <div className="header-content-inner">
                   <div className="branding">
                     <div className="branding-logo-wrap">
-                      <a href="/" rel="home">
+                    <Link href="/">
+          <a></a>
+        </Link>
                         <img
                           src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/light-logo(1).png"
                           alt="Main"
@@ -454,7 +463,7 @@ export default function Home() {
                           alt="Main"
                           className="branding-logo dark-logo"
                         />
-                      </a>
+                      
                     </div>
                   </div>
                 </div>
@@ -466,30 +475,20 @@ export default function Home() {
                       <div id="page-navigation" className="navigation page-navigation">
                         <nav id="menu" className="menu menu--primary">
                           <ul id="menu-primary" className="menu__container sm sm-simple" data-smartmenus-id={16502317500842585}>
-                            <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-53 level-1">
-                              <a href="/">
-                                <div className="menu-item-wrap">
-                                  <span className="menu-item-title">Home</span>
-                                </div>
-                              </a>
-                            </li>
+                            
                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
-                              <a href="/news">
-                                <div className="menu-item-wrap">
-                                  <span className="menu-item-title">
-                                    News &amp; Spotlight
-                                  </span>
-                                </div>
-                              </a>
+                            <Link href="/news">
+          <a>News</a>
+        </Link>
+                                
+                              
                             </li>
                             <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-                              <a href="https://admissions.au.edu/">
-                                <div className="menu-item-wrap">
-                                  <span className="menu-item-title">
-                                    Admissions
-                                  </span>
-                                </div>
-                              </a>
+                            <Link href="ADMISSION">
+          <a>Admission</a>
+        </Link>
+                                
+                              
                             </li>
                             <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
                               <a
@@ -516,32 +515,32 @@ export default function Home() {
                                 aria-expanded="false"
                               >
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
-                                  <a href="http://isl.scitech.au.edu/">
+                                  <link href="http://isl.scitech.au.edu/"/>
                                     <div className="menu-item-wrap">
                                       <span className="menu-item-title">
                                         Intelligent Systems Research Laboratory
                                       </span>
                                     </div>
-                                  </a>
+                                  
                                 </li>
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
-                                  <a href="https://portal.scitech.au.edu/idl/">
+                                  <link href="https://portal.scitech.au.edu/idl/"/>
                                     <div className="menu-item-wrap">
                                       <span className="menu-item-title">
                                         Intelligent Data Analytics Research
                                         Laboratory
                                       </span>
                                     </div>
-                                  </a>
+                                  
                                 </li>
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
-                                  <a href="https://portal.scitech.au.edu/dcode/">
+                                  <link href="https://portal.scitech.au.edu/dcode/"/>
                                     <div className="menu-item-wrap">
                                       <span className="menu-item-title">
                                         d*code
                                       </span>
                                     </div>
-                                  </a>
+                                  
                                 </li>
                               </ul>
                             </li>
@@ -835,9 +834,9 @@ export default function Home() {
                                             </div>
                                             <div className="description-wrap">
                                               <div className="description">
-                                                At VMS we don’t expect
+                                                At VMS we don&apos;t expect
                                                 intelligence to come in any
-                                                particular shape or form. We’re
+                                                particular shape or form. We&apos;re
                                                 looking for future students who
                                                 are inquisitive, passionate,
                                                 original and determined to grow.{" "}
@@ -1119,7 +1118,7 @@ export default function Home() {
                                                       <div className="heading-description">
                                                         <p className="p1">
                                                           <span className="s1">
-                                                            What's happening in
+                                                            What&apos;s happening in
                                                             VMS. Explore Your
                                                             Potential &amp;
                                                             Talents in VMS
@@ -1252,14 +1251,14 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     Most
                                                                     students
                                                                     pleased with
                                                                     their
                                                                     digital
                                                                     learning
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1332,13 +1331,13 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     Gender
                                                                     inequality
                                                                     in higher
                                                                     education
                                                                     persists
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1410,7 +1409,7 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     University
                                                                     of Cambridge
                                                                     commits to a
@@ -1418,7 +1417,7 @@ export default function Home() {
                                                                     centre for
                                                                     music
                                                                     performance
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1490,7 +1489,7 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     Autism rates
                                                                     have
                                                                     increased
@@ -1498,7 +1497,7 @@ export default function Home() {
                                                                     differences
                                                                     in ethnic
                                                                     minorities
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1572,14 +1571,14 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     Most
                                                                     students say
                                                                     their mental
                                                                     health
                                                                     suffered in
                                                                     pandemic
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1651,14 +1650,14 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     Most
                                                                     students
                                                                     pleased with
                                                                     their
                                                                     digital
                                                                     learning
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1731,13 +1730,13 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     Gender
                                                                     inequality
                                                                     in higher
                                                                     education
                                                                     persists
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1809,7 +1808,7 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     University
                                                                     of Cambridge
                                                                     commits to a
@@ -1817,7 +1816,7 @@ export default function Home() {
                                                                     centre for
                                                                     music
                                                                     performance
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1889,7 +1888,7 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     Autism rates
                                                                     have
                                                                     increased
@@ -1897,7 +1896,7 @@ export default function Home() {
                                                                     differences
                                                                     in ethnic
                                                                     minorities
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -1971,14 +1970,14 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     Most
                                                                     students say
                                                                     their mental
                                                                     health
                                                                     suffered in
                                                                     pandemic
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -2050,14 +2049,14 @@ export default function Home() {
                                                                   </a>
                                                                 </div>
                                                                 <h3 className="post-title post-title-2-rows">
-                                                                  <a href="/posts">
+                                                                  <link href="/posts"/>
                                                                     Most
                                                                     students
                                                                     pleased with
                                                                     their
                                                                     digital
                                                                     learning
-                                                                  </a>
+                                                                  
                                                                 </h3>
                                                                 <div className="post-meta">
                                                                   <div className="inner">
@@ -3028,7 +3027,7 @@ export default function Home() {
                                                         }}
                                                       >
                                                         Leave this field empty
-                                                        if you're human:{" "}
+                                                        if you&apos;re human:{" "}
                                                         <input
                                                           type="text"
                                                           name="_mc4wp_honeypot"
@@ -3052,6 +3051,11 @@ export default function Home() {
                                                       <input
                                                         type="hidden"
                                                         name="_mc4wp_form_element_id"
+                                                        defaultValue="mc4wp-form-1"
+                                                      />
+                                                      <input
+                                                        type="hidden"
+                                                        name="_mc4wp_honeypot"
                                                         defaultValue="mc4wp-form-1"
                                                       />
                                                       <div className="mc4wp-response" />
@@ -3126,7 +3130,7 @@ export default function Home() {
                         >
                           <div className="elementor-widget-container">
                             <div className="elementor-image">
-                              <a href="/">
+                              <link href="/"/>
                                 <img
                                   width={448}
                                   height={136}
@@ -3135,7 +3139,7 @@ export default function Home() {
                                   className="attachment-full size-full"
                                   sizes="(max-width: 448px) 100vw, 448px"
                                 />{" "}
-                              </a>
+                              
                             </div>
                           </div>
                         </div>
@@ -3223,7 +3227,7 @@ export default function Home() {
                                                 aria-label="Twitter"
                                                 href="https://twitter.com/assumptionu?lang=en"
                                                 target="_blank"
-                                                rel="nofollow"
+                                                rel="noreferrer"
                                               >
                                                 <i className="link-icon fab fa-twitter" />{" "}
                                               </a>
@@ -3234,7 +3238,7 @@ export default function Home() {
                                                 aria-label="Facebook"
                                                 href="https://www.facebook.com/vms.au.edu/"
                                                 target="_blank"
-                                                rel="nofollow"
+                                                rel="noreferrer"
                                               >
                                                 <i className="link-icon fab fa-facebook-f" />{" "}
                                               </a>
@@ -3245,7 +3249,7 @@ export default function Home() {
                                                 aria-label="Instagram"
                                                 href="https://www.instagram.com/accounts/login/?next=/vms.sc/"
                                                 target="_blank"
-                                                rel="nofollow"
+                                                rel="noreferrer"
                                               >
                                                 <i className="link-icon fab fa-instagram" />{" "}
                                               </a>
@@ -3256,7 +3260,7 @@ export default function Home() {
                                                 aria-label="Youtube Chanel"
                                                 href="https://www.youtube.com/channel/UCBArL_dL5XiXCiS5pDtyLpQ"
                                                 target="_blank"
-                                                rel="nofollow"
+                                                rel="noreferrer"
                                               >
                                                 <i className="link-icon fab fa-youtube" />{" "}
                                               </a>
@@ -3745,9 +3749,9 @@ export default function Home() {
         <div className="woosw-content-bot">
           <div className="woosw-content-bot-inner">
             <span className="woosw-page">
-              <a href="https://unicamp.thememove.com/main/wishlist/">
+              <link href="https://unicamp.thememove.com/main/wishlist/"/>
                 Open wishlist page
-              </a>
+              
             </span>
             <span className="woosw-continue" data-url="">
               Continue shopping{" "}
@@ -3833,13 +3837,13 @@ export default function Home() {
     <div className="inner">
       <div className="page-mobile-menu-header">
         <div className="page-mobile-popup-logo page-mobile-menu-logo">
-          <a href="/" rel="home">
+        <Link href="/">
             <img
               src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/dark-logo.png"
               alt="Main"
               width={165}
             />
-          </a>
+          </Link>
         </div>
         <div id="page-close-mobile-menu" className="page-close-mobile-menu">
           <div className="burger-icon burger-icon-close">
@@ -3851,23 +3855,23 @@ export default function Home() {
       <div className="page-mobile-menu-content">
         <ul id="mobile-menu-primary" className="menu__container">
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-53 level-1">
-            <a href="/">
+            <link href="/"/>
               <div className="menu-item-wrap"><span className="menu-item-title">Home</span>
               </div>
-            </a>
+            
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
-            <a href="/news">
+            <link href="/news"/>
               <div className="menu-item-wrap"><span className="menu-item-title">News &amp; Spotlight</span>
               </div>
-            </a>
+            
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-            <a href="https://unicamp.thememove.com/main/admissions/">
+            <link href="https://unicamp.thememove.com/main/admissions/"/>
               <div className="menu-item-wrap">
                 <span className="menu-item-title">Admissions</span>
               </div>
-            </a>
+            
           </li>
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
             <a>
@@ -3878,29 +3882,29 @@ export default function Home() {
             </a>
             <ul className="sub-menu children simple-menu">
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
-                <a href="http://isl.scitech.au.edu/">
+                <link href="http://isl.scitech.au.edu/"/>
                   <div className="menu-item-wrap">
                     <span className="menu-item-title">
                       Intelligent Systems Research Laboratory
                     </span>
                   </div>
-                </a>
+                
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
-                <a href="https://portal.scitech.au.edu/idl/">
+                <link href="https://portal.scitech.au.edu/idl/"/>
                   <div className="menu-item-wrap">
                     <span className="menu-item-title">
                       Intelligent Data Analytics Research Laboratory
                     </span>
                   </div>
-                </a>
+                
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
-                <a href="https://portal.scitech.au.edu/dcode/">
+                <link href="https://portal.scitech.au.edu/dcode/"/>
                   <div className="menu-item-wrap">
                     <span className="menu-item-title">d*code</span>
                   </div>
-                </a>
+                
               </li>
             </ul>
           </li>

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Script from 'next/script'
-
+import Link from 'next/link'
 
 export default function CS() {
   return (
@@ -105,36 +105,7 @@ export default function CS() {
 </>
 
     
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rbtools.min.js' id='tp-tools-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rs6.min.js' id='revmin-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/js/tutor/general.min.js' id='unicamp-course-general-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/libs/lightGallery/js/lightgallery-all.min.js' id='lightgallery-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/libs/countTo/jquery.countTo.min.js' id='count-to-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/widget-counter.js' id='unicamp-widget-counter-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/group-widget-carousel.js' id='unicamp-group-widget-carousel-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js' id='elementor-webpack-runtime-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/js/frontend-modules.min.js' id='elementor-frontend-modules-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js' id='share-link-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js' id='elementor-dialog-js'></Script>
-  <Script src='./home/frontend.min.js' id='elementor-pro-frontend-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js' id='pro-preloaded-elements-handlers-js'></Script>
-    <Script src='./home/preloaded-modules.min.js' id='preloaded-modules-js'></Script>
-    <Script src="./home/swiper-wrapper.min.js.download" id="unicamp-swiper-wrapper-js"></Script>
-    <Script src="./home/jquery.smartmenus.min.js.download" id="smartmenus-js"></Script>
-    <Script src="./home/jquery.growl.min.js.download" id="growl-js"></Script>
-    <Script src="./home/nice-select.min.js.download" id="unicamp-nice-select-js"></Script>
-    <Script id="./home/unicamp-Script-js-extra"></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/quicktags.min.js' id='quicktags-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/mouse.min.js' id='jquery-ui-mouse-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/sortable.min.js' id='jquery-ui-sortable-js'></Script>
-    <Script src='./home/plyr.polyfilled.min.js' id='tutor-plyr-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/vendor/regenerator-runtime.min.js' id='regenerator-runtime-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/hooks.min.js' id='wp-hooks-js'></Script>
-    <Script src='./home/i18n.min.js' id='wp-i18n-js'></Script>
+    
     
 
   <link
@@ -416,168 +387,134 @@ export default function CS() {
     </Head>
     <>
     <div className="content-wrapper">
-  <header
-    id="page-header"
-    className="page-header header-01 header-dark nav-links-hover-style-01 header-sticky-dark-logo headroom headroom--top headroom--not-bottom"
-  >
-    <div className="page-header-place-holder" style={{ height: "148.969px" }} />
-    <div
-      id="page-header-inner"
-      className="page-header-inner held"
-      data-sticky={1}
-    >
-      <div className="container">
-        <div className="header-wrap">
-          <div className="header-left">
-            <div className="header-content-inner">
-              <div className="branding">
-                <div className="branding-logo-wrap">
-                  <a href="/" rel="home">
-                    <img
-                      src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/dark-logo.png"
-                      alt="Main"
-                      className="branding-logo dark-logo"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="header-center">
-            <div className="header-content-inner">
-              <div
-                id="page-navigation-secondary"
-                className="navigation-secondary"
-              >
-                <nav className="menu menu--secondary">
-                  <ul
-                    id="menu-secondary"
-                    className="menu__container sm sm-simple"
-                    data-smartmenus-id={16504550458350637}
-                  >
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1444 level-1">
-                      <a href="/cs">
-                        <div className="menu-item-wrap">
-                          <span className="menu-item-title">CS</span>
-                        </div>
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1284 level-1">
-                      <a href="/it">
-                        <div className="menu-item-wrap">
-                          <span className="menu-item-title">IT</span>
-                        </div>
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1460 level-1">
-                      <a href="/staff">
-                        <div className="menu-item-wrap">
-                          <span className="menu-item-title">STAFF</span>
-                        </div>
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-886 level-1">
-                      <a href="/alumni">
-                        <div className="menu-item-wrap">
-                          <span className="menu-item-title">ALUMNI</span>
-                        </div>
-                      </a>
-                    </li>
-                  </ul>
-                </nav>
+    <header
+  id="page-header"
+  className="page-header header-01 header-dark nav-links-hover-style-01 header-sticky-dark-logo"
+>
+  
+  
+  <div className="page-header-place-holder" />
+  <div id="page-header-inner" className="page-header-inner" data-sticky={1}>
+    <div className="container">
+      <div className="header-wrap">
+        <div className="header-left">
+          <div className="header-content-inner">
+            <div className="branding">
+              <div className="branding-logo-wrap">
+              <Link href="/">
+              <img src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/dark-logo.png" alt="Main" className="branding-logo dark-logo"/>
+        </Link>
+                
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="header-bottom">
-        <div className="container">
-          <div id="page-navigation" className="navigation page-navigation">
-            <nav id="menu" className="menu menu--primary">
-              <ul
-                id="menu-primary"
-                className="menu__container sm sm-simple"
-                data-smartmenus-id={16504550458163022}
-              >
-                <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-53 level-1">
-                  <a href="/">
-                    <div className="menu-item-wrap">
-                      <span className="menu-item-title">Home</span>
-                    </div>
-                  </a>
-                </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
-                  <a href="/news">
-                    <div className="menu-item-wrap">
-                      <span className="menu-item-title">
-                        News &amp; Spotlight
-                      </span>
-                    </div>
-                  </a>
-                </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-                  <a href="https://admissions.au.edu/">
-                    <div className="menu-item-wrap">
-                      <span className="menu-item-title">Admissions</span>
-                    </div>
-                  </a>
-                </li>
-                <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
-                  <a
-                    className="has-submenu"
-                    id="sm-16504550458163022-1"
-                    aria-haspopup="true"
-                    aria-controls="sm-16504550458163022-2"
-                    aria-expanded="false"
-                  >
-                    <div className="menu-item-wrap">
-                      <span className="menu-item-title">Laboratories</span>
-                      <span className="toggle-sub-menu"> </span>
-                    </div>
-                    <span className="sub-arrow" />
-                  </a>
-                  <ul
-                    className="sub-menu children simple-menu"
-                    id="sm-16504550458163022-2"
-                    role="group"
-                    aria-hidden="true"
-                    aria-labelledby="sm-16504550458163022-1"
-                    aria-expanded="false"
-                  >
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
-                      <a href="http://isl.scitech.au.edu/">
-                        <div className="menu-item-wrap">
-                          <span className="menu-item-title">
-                            Intelligent Systems Research Laboratory
-                          </span>
-                        </div>
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
-                      <a href="https://portal.scitech.au.edu/idl/">
-                        <div className="menu-item-wrap">
-                          <span className="menu-item-title">
-                            Intelligent Data Analytics Research Laboratory
-                          </span>
-                        </div>
-                      </a>
-                    </li>
-                    <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
-                      <a href="https://portal.scitech.au.edu/dcode/">
-                        <div className="menu-item-wrap">
-                          <span className="menu-item-title">d*code</span>
-                        </div>
-                      </a>
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </nav>
+        
+        <div className="header-center">
+          <div className="header-content-inner">
+            <div
+              id="page-navigation-secondary"
+              className="navigation-secondary"
+            >
+              <nav className="menu menu--secondary">
+                    <ul
+                      id="menu-secondary"
+                      className="menu__container sm sm-simple"
+                    >
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1444 level-1">
+                      <Link href="cs">
+          <a>CS</a>
+        </Link>
+                          
+                        
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1284 level-1">
+                      <Link href="it">
+          <a>IT</a>
+        </Link>
+                          
+                        
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1460 level-1">
+                      <Link href="staff">
+          <a>STAFF</a>
+        </Link>
+                          
+                        
+                      </li>
+                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-886 level-1">
+                      <Link href="alumni">
+          <a>ALUMNI</a>
+        </Link>
+                          
+                        
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </header>
+    <div className="header-bottom">
+      <div className="container">
+        <div id="page-navigation" className="navigation page-navigation">
+          <nav id="menu" className="menu menu--primary">
+            <ul id="menu-primary" className="menu__container sm sm-simple">
+            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1444 level-1">
+                      <Link href="/">
+          <a>Home</a>
+        </Link>
+        </li>
+              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
+              <Link href="/news">
+          <a>News</a>
+        </Link>
+                  
+                
+              </li>
+              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
+              <Link href="https://admissions.au.edu/">
+          <a>Admission</a>
+        </Link>
+                
+              </li>
+              <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
+                <a>
+                  <div className="menu-item-wrap">
+                    <span className="menu-item-title">Laboratories</span>
+                    <span className="toggle-sub-menu"> </span>
+                  </div>
+                </a>
+                <ul className="sub-menu children simple-menu">
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
+                  <Link href="http://isl.scitech.au.edu/">
+          <a>Intelligent Systems Research Laboratory</a>
+        </Link>
+                    
+                  </li>
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
+                  <Link href="https://portal.scitech.au.edu/idl/">
+          <a>Intelligent Data Analytics Research Laboratory</a>
+        </Link>
+                    
+                  </li>
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
+                    <Link href="https://portal.scitech.au.edu/dcode/">
+          <a>d*code</a>
+        </Link>
+                    
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
   <div id="page-title-bar" className="page-title-bar page-title-bar-01">
       <div className="page-title-bar-inner">
         <div className="page-title-bar-bg" />
@@ -585,7 +522,7 @@ export default function CS() {
           <div className="container">
             <ul className="insight_core_breadcrumb">
               <li className="level-1 top">
-                <a href="/">Home</a>
+                <link href="/"/>Home
               </li>
               <li className="level-2 sub tail current">
                 Computer Science
@@ -594,7 +531,7 @@ export default function CS() {
           </div>
         </div>
         <div className="page-title-bar-heading container">
-          <h1 className="heading"> Information Technology </h1>
+          <h1 className="heading"> Computer Science </h1>
         </div>
       </div>
     </div>
@@ -2029,6 +1966,7 @@ export default function CS() {
   </div>
 </div>
 
+
 <div id="page-footer-wrapper" class="page-footer-wrapper">
             <div class="page-footer elementor-footer" id="page-footer">
                 <div data-elementor-type="footer" data-elementor-id="110" class="elementor elementor-110 elementor-location-footer" data-elementor-settings="[]">
@@ -2048,12 +1986,17 @@ export default function CS() {
                                                                 <div class="elementor-column-wrap elementor-element-populated">
                                                                     <div class="elementor-widget-wrap">
                                                                         <div class="elementor-element elementor-element-3e5c75b elementor-widget elementor-widget-image" data-id="3e5c75b" data-element_type="widget" data-widget_type="image.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="elementor-image">
-                                                                                    <a href="/">
-                                                                                        <img width="448" height="136" src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/light-logo(1).png" class="attachment-full size-full" sizes="(max-width: 448px) 100vw, 448px" />                                                                                        </a>
-                                                                                </div>
-                                                                            </div>
+                                                                        <div className="elementor-widget-container">
+                                      <div className="elementor-image">
+                                      <Link href="/">
+        
+                                          <img
+
+                                            src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/light-logo(1).png"
+                                          />
+                                        </Link>
+                                      </div>
+                                    </div>
                                                                         </div>
                                                                         <div class="elementor-element elementor-element-988f261 elementor-widget elementor-widget-tm-heading" data-id="988f261" data-element_type="widget" data-widget_type="tm-heading.default">
                                                                             <div class="elementor-widget-container">
@@ -2072,19 +2015,19 @@ export default function CS() {
                                                                                 <div class="tm-social-networks style-large-icons layout-inline">
                                                                                     <ul class="list">
                                                                                         <li class="item elementor-repeater-item-a4ebc41">
-                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Twitter" href="https://twitter.com/assumptionu?lang=en" target="_blank" rel="nofollow">
+                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Twitter" href="https://twitter.com/assumptionu?lang=en" target="_blank" rel="noreferrer">
                                                                                                 <i class="link-icon fab fa-twitter"></i> </a>
                                                                                         </li>
                                                                                         <li class="item elementor-repeater-item-3a62d63">
-                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Facebook" href="https://www.facebook.com/vms.au.edu/" target="_blank" rel="nofollow">
+                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Facebook" href="https://www.facebook.com/vms.au.edu/" target="_blank" rel="noreferrer">
                                                                                                 <i class="link-icon fab fa-facebook-f"></i> </a>
                                                                                         </li>
                                                                                         <li class="item elementor-repeater-item-5840c98">
-                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Instagram" href="https://www.instagram.com/accounts/login/?next=/vms.sc/" target="_blank" rel="nofollow">
+                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Instagram" href="https://www.instagram.com/accounts/login/?next=/vms.sc/" target="_blank" rel="noreferrer">
                                                                                                 <i class="link-icon fab fa-instagram"></i> </a>
                                                                                         </li>
                                                                                         <li class="item elementor-repeater-item-ecbdfc2">
-                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Youtube Chanel" href="https://www.youtube.com/channel/UCBArL_dL5XiXCiS5pDtyLpQ" target="_blank" rel="nofollow">
+                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Youtube Chanel" href="https://www.youtube.com/channel/UCBArL_dL5XiXCiS5pDtyLpQ" target="_blank" rel="noreferrer">
                                                                                                 <i class="link-icon fab fa-youtube"></i> </a>
                                                                                         </li>
                                                                                     </ul>
@@ -2121,8 +2064,8 @@ export default function CS() {
                                                                                 <div class="tm-modern-heading">
 
                                                                                     <div class="heading-primary-wrap">
-                                                                                        <div class="heading-primary elementor-heading-title"><a href="tel:66023004543"><mark>(66) 02 300 4543
-                                                                                        </mark></a></div>
+                                                                                        <div class="heading-primary elementor-heading-title"><link href="tel:66023004543"/><mark>(66) 02 300 4543
+                                                                                        </mark></div>
                                                                                     </div>
 
 
@@ -2292,13 +2235,13 @@ export default function CS() {
     <div className="inner">
       <div className="page-mobile-menu-header">
         <div className="page-mobile-popup-logo page-mobile-menu-logo">
-          <a href="/" rel="home">
+        <Link href="/">
             <img
               src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/dark-logo.png"
               alt="Main"
               width={165}
             />
-          </a>
+          </Link>
         </div>
         <div id="page-close-mobile-menu" className="page-close-mobile-menu">
           <div className="burger-icon burger-icon-close">
@@ -2310,23 +2253,23 @@ export default function CS() {
       <div className="page-mobile-menu-content">
         <ul id="mobile-menu-primary" className="menu__container">
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-53 level-1">
-            <a href="/">
+            <link href="/"/>
               <div className="menu-item-wrap"><span className="menu-item-title">Home</span>
               </div>
-            </a>
+            
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
-            <a href="/news">
+            <link href="/news"/>
               <div className="menu-item-wrap"><span className="menu-item-title">News &amp; Spotlight</span>
               </div>
-            </a>
+            
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-            <a href="https://unicamp.thememove.com/main/admissions/">
+            <link href="https://unicamp.thememove.com/main/admissions/"/>
               <div className="menu-item-wrap">
                 <span className="menu-item-title">Admissions</span>
               </div>
-            </a>
+            
           </li>
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
             <a>
@@ -2337,29 +2280,29 @@ export default function CS() {
             </a>
             <ul className="sub-menu children simple-menu">
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
-                <a href="http://isl.scitech.au.edu/">
+                <link href="http://isl.scitech.au.edu/"/>
                   <div className="menu-item-wrap">
                     <span className="menu-item-title">
                       Intelligent Systems Research Laboratory
                     </span>
                   </div>
-                </a>
+                
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
-                <a href="https://portal.scitech.au.edu/idl/">
+                <link href="https://portal.scitech.au.edu/idl/"/>
                   <div className="menu-item-wrap">
                     <span className="menu-item-title">
                       Intelligent Data Analytics Research Laboratory
                     </span>
                   </div>
-                </a>
+                
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
-                <a href="https://portal.scitech.au.edu/dcode/">
+                <link href="https://portal.scitech.au.edu/dcode/"/>
                   <div className="menu-item-wrap">
                     <span className="menu-item-title">d*code</span>
                   </div>
-                </a>
+                
               </li>
             </ul>
           </li>
@@ -2414,9 +2357,10 @@ export default function CS() {
     </span>
   </div>
   <div id="powerTip" />
+  
 </>
 
-  
+
   
 </>
 

@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Script from 'next/script'
+import Link from 'next/link'
 
-
-export default function CS() {
+export default function Posts() {
   return (
     <>
     <Head>
@@ -12,7 +12,7 @@ export default function CS() {
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="profile" href="https://gmpg.org/xfn/11" />
-  <title>VMS – CS</title>
+  <title>VMS – Post</title>
   <meta
     name="description"
     content="This page represents the demo of our senior project, VMS 2022 website. As we all know our current website is outdated and hard to maintain, so our goal is to recreate the VMS website using more advanced technologies."
@@ -105,36 +105,7 @@ export default function CS() {
 </>
 
     
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rbtools.min.js' id='tp-tools-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rs6.min.js' id='revmin-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/js/tutor/general.min.js' id='unicamp-course-general-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/libs/lightGallery/js/lightgallery-all.min.js' id='lightgallery-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/libs/countTo/jquery.countTo.min.js' id='count-to-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/widget-counter.js' id='unicamp-widget-counter-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/elementor/assets/js/widgets/group-widget-carousel.js' id='unicamp-group-widget-carousel-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js' id='elementor-webpack-runtime-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/js/frontend-modules.min.js' id='elementor-frontend-modules-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js' id='share-link-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js' id='elementor-dialog-js'></Script>
-  <Script src='./home/frontend.min.js' id='elementor-pro-frontend-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js' id='pro-preloaded-elements-handlers-js'></Script>
-    <Script src='./home/preloaded-modules.min.js' id='preloaded-modules-js'></Script>
-    <Script src="./home/swiper-wrapper.min.js.download" id="unicamp-swiper-wrapper-js"></Script>
-    <Script src="./home/jquery.smartmenus.min.js.download" id="smartmenus-js"></Script>
-    <Script src="./home/jquery.growl.min.js.download" id="growl-js"></Script>
-    <Script src="./home/nice-select.min.js.download" id="unicamp-nice-select-js"></Script>
-    <Script id="./home/unicamp-Script-js-extra"></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/quicktags.min.js' id='quicktags-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/mouse.min.js' id='jquery-ui-mouse-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/ui/sortable.min.js' id='jquery-ui-sortable-js'></Script>
-    <Script src='./home/plyr.polyfilled.min.js' id='tutor-plyr-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/vendor/regenerator-runtime.min.js' id='regenerator-runtime-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/vendor/wp-polyfill.min.js' id='wp-polyfill-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-includes/js/dist/hooks.min.js' id='wp-hooks-js'></Script>
-    <Script src='./home/i18n.min.js' id='wp-i18n-js'></Script>
+   
     
 
   <link
@@ -429,140 +400,117 @@ export default function CS() {
               <div className="header-content-inner">
                 <div className="branding">
                   <div className="branding-logo-wrap">
-                    <a href="/" rel="home">
+                  <Link href="/">
                       <img
                         src="posts_files/dark-logo.png"
                         alt="Main"
                         className="branding-logo dark-logo"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
             <div className="header-center">
-              <div className="header-content-inner">
-                <div
-                  id="page-navigation-secondary"
-                  className="navigation-secondary"
-                >
-                  <nav className="menu menu--secondary">
+          <div className="header-content-inner">
+            <div
+              id="page-navigation-secondary"
+              className="navigation-secondary"
+            >
+              <nav className="menu menu--secondary">
                     <ul
                       id="menu-secondary"
                       className="menu__container sm sm-simple"
                     >
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1444 level-1">
-                        <a href="/cs">
-                          <div className="menu-item-wrap">
-                            <span className="menu-item-title">CS</span>
-                          </div>
-                        </a>
+                      <Link href="cs">
+          <a>CS</a>
+        </Link>
+                          
+                        
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1284 level-1">
-                        <a href="/it">
-                          <div className="menu-item-wrap">
-                            <span className="menu-item-title">IT</span>
-                          </div>
-                        </a>
+                      <Link href="it">
+          <a>IT</a>
+        </Link>
+                          
+                        
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1460 level-1">
-                        <a href="/staff">
-                          <div className="menu-item-wrap">
-                            <span className="menu-item-title">STAFF</span>
-                          </div>
-                        </a>
+                      <Link href="staff">
+          <a>STAFF</a>
+        </Link>
+                          
+                        
                       </li>
                       <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-886 level-1">
-                        <a href="/alumni">
-                          <div className="menu-item-wrap">
-                            <span className="menu-item-title">ALUMNI</span>
-                          </div>
-                        </a>
+                      <Link href="alumni">
+          <a>ALUMNI</a>
+        </Link>
+                          
+                        
                       </li>
                     </ul>
                   </nav>
-                </div>
-                
-                <div
-                  id="page-open-components"
-                  className="header-icon page-open-components"
-                >
-                  <div className="inner">
-                    <div className="circle circle-one" />
-                    <div className="circle circle-two" />
-                    <div className="circle circle-three" />
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
-        <div className="header-bottom">
-          <div className="container">
-            <div id="page-navigation" className="navigation page-navigation">
-              <nav id="menu" className="menu menu--primary">
-                <ul id="menu-primary" className="menu__container sm sm-simple">
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-53 level-1">
-                    <a href="/">
-                      <div className="menu-item-wrap">
-                        <span className="menu-item-title">Home</span>
-                      </div>
-                    </a>
+      </div>
+    </div>
+    <div className="header-bottom">
+      <div className="container">
+        <div id="page-navigation" className="navigation page-navigation">
+          <nav id="menu" className="menu menu--primary">
+            <ul id="menu-primary" className="menu__container sm sm-simple">
+            <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1444 level-1">
+                      <Link href="/">
+          <a>Home</a>
+        </Link>
+        </li>
+              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
+              <Link href="/news">
+          <a>News</a>
+        </Link>
+                  
+                
+              </li>
+              <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
+              <Link href="https://admissions.au.edu/">
+          <a>Admission</a>
+        </Link>
+                
+              </li>
+              <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
+                <a>
+                  <div className="menu-item-wrap">
+                    <span className="menu-item-title">Laboratories</span>
+                    <span className="toggle-sub-menu"> </span>
+                  </div>
+                </a>
+                <ul className="sub-menu children simple-menu">
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
+                  <Link href="http://isl.scitech.au.edu/">
+          <a>Intelligent Systems Research Laboratory</a>
+        </Link>
+                    
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
-                    <a href="/news">
-                      <div className="menu-item-wrap">
-                        <span className="menu-item-title">
-                          News &amp; Spotlight
-                        </span>
-                      </div>
-                    </a>
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
+                  <Link href="https://portal.scitech.au.edu/idl/">
+          <a>Intelligent Data Analytics Research Laboratory</a>
+        </Link>
+                    
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-                    <a href="https://admissions.au.edu/">
-                      <div className="menu-item-wrap">
-                        <span className="menu-item-title">Admissions</span>
-                      </div>
-                    </a>
-                  </li>
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
-                    <a>
-                      <div className="menu-item-wrap">
-                        <span className="menu-item-title">Laboratories</span>
-                        <span className="toggle-sub-menu"> </span>
-                      </div>
-                    </a>
-                    <ul className="sub-menu children simple-menu">
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
-                        <a href="http://isl.scitech.au.edu/">
-                          <div className="menu-item-wrap">
-                            <span className="menu-item-title">
-                              Intelligent Systems Research Laboratory
-                            </span>
-                          </div>
-                        </a>
-                      </li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
-                        <a href="https://portal.scitech.au.edu/idl/">
-                          <div className="menu-item-wrap">
-                            <span className="menu-item-title">
-                              Intelligent Data Analytics Research Laboratory
-                            </span>
-                          </div>
-                        </a>
-                      </li>
-                      <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
-                        <a href="https://portal.scitech.au.edu/dcode/">
-                          <div className="menu-item-wrap">
-                            <span className="menu-item-title">d*code</span>
-                          </div>
-                        </a>
-                      </li>
-                    </ul>
+                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
+                    <Link href="https://portal.scitech.au.edu/dcode/">
+          <a>d*code</a>
+        </Link>
+                    
                   </li>
                 </ul>
-              </nav>
-            </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
           </div>
         </div>
       </div>
@@ -574,7 +522,7 @@ export default function CS() {
           <div className="container">
             <ul className="insight_core_breadcrumb">
               <li className="level-1 top">
-                <a href="/">Home</a>
+                <link href="/"/>Home
               </li>
               <li className="level-3 sub tail current">
                 Most students pleased with their digital learning
@@ -664,9 +612,9 @@ export default function CS() {
                 </h1>
                 <div className="entry-post-meta">
                   <div className="post-meta-author">
-                    <a href="https://unicamp.thememove.com/main/author/thememove/">
+                    <link href="/posts"/>
                       <span className="meta-value">Kasidit Ploenthamakhun</span>
-                    </a>
+                    
                   </div>
                   <div className="post-date">
                     <span className="meta-value">Jan 23, 2021</span>
@@ -675,17 +623,17 @@ export default function CS() {
                     <span className="meta-value">241 views</span>
                   </div>
                   <div className="post-comments">
-                    <a href="#comments" className="smooth-scroll-link">
+                    <link href="#comments" className="smooth-scroll-link"/>
                       0 comments{" "}
-                    </a>
+                    
                   </div>
                 </div>
               </div>
               <div className="entry-content">
                 <p>
                   Nearly seven in 10 students surveyed rate the quality of
-                  online and digital learning as either ‘best imaginable’,
-                  ‘excellent’ or ‘good’ (68% of both further and higher
+                  online and digital learning as either &apos;best imaginable&apos;,
+                  &apos;excellent&apos; or &apos;good&apos; (68% of both further and higher
                   education students).
                 </p>
                 <p>
@@ -695,7 +643,7 @@ export default function CS() {
                   digital skills need more attention.
                 </p>
                 <p>
-                  Sarah Knight, Jisc’s head of data and digital capability,
+                  Sarah Knight, Jisc&apos;s head of data and digital capability,
                   said: “We hope this data pulse helps universities and colleges
                   see clearly where students are benefiting, and where they
                   could be better supported.”
@@ -704,7 +652,7 @@ export default function CS() {
                   Between October and December 2020, 21,697 higher education
                   students and 5,372 further education students from 11
                   universities and four further education colleges took part in
-                  Jisc’s digital experience insights student survey.
+                  Jisc&apos;s digital experience insights student survey.
                 </p>
                 <p>
                   The surveys seek to support the sector in adapting and
@@ -732,7 +680,7 @@ export default function CS() {
                 <blockquote className="wp-block-quote">
                   <p>
                     Learning online (ironically) has made it easier to get
-                    support from staff. They’re more likely to encourage us to
+                    support from staff. They&apos;re more likely to encourage us to
                     talk to them and it is a little easier than having to find
                     them physically on campus.
                   </p>
@@ -817,7 +765,7 @@ export default function CS() {
                     <h5 className="author-name">Kasidit Ploenthamakhun</h5>
                     <div className="author-biographical-info">
                       Kasidit Ploenthamakhun is an author, blogger, and designer
-                      living in a suburb of Bangkok. When he’s not designing,
+                      living in a suburb of Bangkok. When he&apos;s not designing,
                       blogging, or writing, Kasidit can be found with her head
                       in a book or pinning like a madman.{" "}
                     </div>
@@ -828,7 +776,7 @@ export default function CS() {
                 <div className="nav-list">
                   <div className="nav-item prev">
                     <div className="inner">
-                      <a href="#" rel="prev">
+                      <link href="#" rel="prev"/>
                         <div
                           className="hover-bg has-thumbnail"
                           style={{
@@ -837,12 +785,12 @@ export default function CS() {
                           }}
                         />
                         <h6>Gender inequality in higher education persists</h6>
-                      </a>{" "}
+                      {" "}
                     </div>
                   </div>
                   <div className="nav-item next">
                     <div className="inner">
-                      <a href="#" rel="next">
+                      <link href="#" rel="next"/>
                         <div
                           className="hover-bg has-thumbnail"
                           style={{
@@ -854,7 +802,7 @@ export default function CS() {
                           Most students say their mental health suffered in
                           pandemic
                         </h6>
-                      </a>{" "}
+                      {" "}
                     </div>
                   </div>
                 </div>
@@ -877,20 +825,20 @@ export default function CS() {
                           <div className="related-post-item post-1862 post type-post status-publish format-standard has-post-thumbnail hentry category-alumni category-research tag-alumni tag-campus tag-career tag-research">
                             <div className="post-wrapper unicamp-box">
                               <div className="post-feature post-thumbnail unicamp-image">
-                                <a href="#">
+                                <link href="#"/>
                                   <img
                                     src="https://unicamp.thememove.com/main/wp-content/uploads/sites/2/2021/03/blog-14-240x150.jpg"
                                     alt="blog-14"
                                     width={240}
                                   />{" "}
-                                </a>
+                                
                               </div>
                               <div className="post-caption">
                                 <h3 className="post-title post-title-2-rows">
-                                  <a href="#">
+                                  <link href="#"/>
                                     Autism rates have increased and show
                                     differences in ethnic minorities
-                                  </a>
+                                  
                                 </h3>
                                 <div className="post-meta">
                                   <div className="inner">
@@ -914,20 +862,20 @@ export default function CS() {
                           <div className="related-post-item post-1745 post type-post status-publish format-standard has-post-thumbnail hentry category-student-life category-student-story tag-campus tag-career tag-health tag-life tag-pandemic">
                             <div className="post-wrapper unicamp-box">
                               <div className="post-feature post-thumbnail unicamp-image">
-                                <a href="#">
+                                <link href="#"/>
                                   <img
                                     src="https://unicamp.thememove.com/main/wp-content/uploads/sites/2/2021/03/blog-13-240x150.jpg"
                                     alt="blog-13"
                                     width={240}
                                   />{" "}
-                                </a>
+                                
                               </div>
                               <div className="post-caption">
                                 <h3 className="post-title post-title-2-rows">
-                                  <a href="#">
+                                  <link href="#"/>
                                     Most students say their mental health
                                     suffered in pandemic
-                                  </a>
+                                  
                                 </h3>
                                 <div className="post-meta">
                                   <div className="inner">
@@ -951,20 +899,20 @@ export default function CS() {
                           <div className="related-post-item post-97 post type-post status-publish format-standard has-post-thumbnail hentry category-research category-student-life tag-campus tag-career tag-life">
                             <div className="post-wrapper unicamp-box">
                               <div className="post-feature post-thumbnail unicamp-image">
-                                <a href="#">
+                                <link href="#"/>
                                   <img
                                     src="https://unicamp.thememove.com/main/wp-content/uploads/sites/2/2021/01/blog-11-240x150.jpg"
                                     alt="blog-11"
                                     width={240}
                                   />{" "}
-                                </a>
+                                
                               </div>
                               <div className="post-caption">
                                 <h3 className="post-title post-title-2-rows">
-                                  <a href="#">
+                                  <link href="#"/>
                                     Gender inequality in higher education
                                     persists
-                                  </a>
+                                  
                                 </h3>
                                 <div className="post-meta">
                                   <div className="inner">
@@ -988,20 +936,20 @@ export default function CS() {
                           <div className="related-post-item post-1865 post type-post status-publish format-standard has-post-thumbnail hentry category-alumni category-spotlight category-student-life category-student-story tag-activities tag-alumni tag-campus tag-career">
                             <div className="post-wrapper unicamp-box">
                               <div className="post-feature post-thumbnail unicamp-image">
-                                <a href="#">
+                                <link href="#"/>
                                   <img
                                     src="https://unicamp.thememove.com/main/wp-content/uploads/sites/2/2021/03/blog-15-240x150.jpg"
                                     alt="blog-15"
                                     width={240}
                                   />{" "}
-                                </a>
+                                
                               </div>
                               <div className="post-caption">
                                 <h3 className="post-title post-title-2-rows">
-                                  <a href="#">
+                                  <link href="#"/>
                                     University of Cambridge commits to a major
                                     new centre for music performance
-                                  </a>
+                                  
                                 </h3>
                                 <div className="post-meta">
                                   <div className="inner">
@@ -1025,20 +973,20 @@ export default function CS() {
                           <div className="related-post-item post-94 post type-post status-publish format-standard has-post-thumbnail hentry category-alumni category-spotlight category-student-life tag-campus tag-career tag-learning-business">
                             <div className="post-wrapper unicamp-box">
                               <div className="post-feature post-thumbnail unicamp-image">
-                                <a href="https://unicamp.thememove.com/main/top-tips-on-how-to-get-a-first-class-degree-at-university/">
+                                <link href="/posts"/>
                                   <img
                                     src="https://unicamp.thememove.com/main/wp-content/uploads/sites/2/2021/01/blog-10-240x150.jpg"
                                     alt="blog-10"
                                     width={240}
                                   />{" "}
-                                </a>
+                                
                               </div>
                               <div className="post-caption">
                                 <h3 className="post-title post-title-2-rows">
-                                  <a href="https://unicamp.thememove.com/main/top-tips-on-how-to-get-a-first-class-degree-at-university/">
+                                  <link href="/posts"/>
                                     9 Top Tips On How To Get A First Class
                                     Degree At University
-                                  </a>
+                                  
                                 </h3>
                                 <div className="post-meta">
                                   <div className="inner">
@@ -1073,7 +1021,7 @@ export default function CS() {
                       Leave your thought here{" "}
                       <small>
                         <a
-                          rel="nofollow"
+                          rel="noreferrer"
                           id="cancel-comment-reply-link"
                           href="/main/most-students-pleased-with-their-digital-learning/#respond"
                           style={{ display: "none" }}
@@ -1297,15 +1245,13 @@ export default function CS() {
                                   >
                                     <div className="elementor-widget-container">
                                       <div className="elementor-image">
-                                        <a href="/">
+                                      <Link href="/">
+        
                                           <img
-                                            width={448}
-                                            height={136}
+
                                             src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/light-logo(1).png"
-                                            className="attachment-full size-full"
-                                            sizes="(max-width: 448px) 100vw, 448px"
-                                          />{" "}
-                                        </a>
+                                          />
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
@@ -1343,7 +1289,7 @@ export default function CS() {
                                               aria-label="Twitter"
                                               href="https://twitter.com/assumptionu?lang=en"
                                               target="_blank"
-                                              rel="nofollow"
+                                              rel="noreferrer"
                                             >
                                               <i className="link-icon fab fa-twitter" />{" "}
                                             </a>
@@ -1354,7 +1300,7 @@ export default function CS() {
                                               aria-label="Facebook"
                                               href="https://www.facebook.com/vms.au.edu/"
                                               target="_blank"
-                                              rel="nofollow"
+                                              rel="noreferrer"
                                             >
                                               <i className="link-icon fab fa-facebook-f" />{" "}
                                             </a>
@@ -1365,7 +1311,7 @@ export default function CS() {
                                               aria-label="Instagram"
                                               href="https://www.instagram.com/accounts/login/?next=/vms.sc/"
                                               target="_blank"
-                                              rel="nofollow"
+                                              rel="noreferrer"
                                             >
                                               <i className="link-icon fab fa-instagram" />{" "}
                                             </a>
@@ -1376,7 +1322,7 @@ export default function CS() {
                                               aria-label="Youtube Chanel"
                                               href="https://www.youtube.com/channel/UCBArL_dL5XiXCiS5pDtyLpQ"
                                               target="_blank"
-                                              rel="nofollow"
+                                              rel="noreferrer"
                                             >
                                               <i className="link-icon fab fa-youtube" />{" "}
                                             </a>
@@ -1433,9 +1379,9 @@ export default function CS() {
                                       <div className="tm-modern-heading">
                                         <div className="heading-primary-wrap">
                                           <div className="heading-primary elementor-heading-title">
-                                            <a href="tel:66023004543">
+                                            <link href="tel:66023004543"/>
                                               <mark>(66) 02 300 4543</mark>
-                                            </a>
+                                            
                                           </div>
                                         </div>
                                       </div>
@@ -1635,7 +1581,7 @@ export default function CS() {
   </div>
 
 
-
+  
   
   <div
     id="page-mobile-main-menu"
@@ -1645,13 +1591,13 @@ export default function CS() {
     <div className="inner">
       <div className="page-mobile-menu-header">
         <div className="page-mobile-popup-logo page-mobile-menu-logo">
-          <a href="/" rel="home">
+        <Link href="/">
             <img
               src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/dark-logo.png"
               alt="Main"
               width={165}
             />
-          </a>
+          </Link>
         </div>
         <div id="page-close-mobile-menu" className="page-close-mobile-menu">
           <div className="burger-icon burger-icon-close">
@@ -1663,23 +1609,23 @@ export default function CS() {
       <div className="page-mobile-menu-content">
         <ul id="mobile-menu-primary" className="menu__container">
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-53 level-1">
-            <a href="/">
+            <link href="/"/>
               <div className="menu-item-wrap"><span className="menu-item-title">Home</span>
               </div>
-            </a>
+            
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
-            <a href="/news">
+            <link href="/news"/>
               <div className="menu-item-wrap"><span className="menu-item-title">News &amp; Spotlight</span>
               </div>
-            </a>
+            
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-            <a href="https://unicamp.thememove.com/main/admissions/">
+            <link href="https://unicamp.thememove.com/main/admissions/"/>
               <div className="menu-item-wrap">
                 <span className="menu-item-title">Admissions</span>
               </div>
-            </a>
+            
           </li>
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
             <a>
@@ -1690,29 +1636,29 @@ export default function CS() {
             </a>
             <ul className="sub-menu children simple-menu">
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
-                <a href="http://isl.scitech.au.edu/">
+                <link href="http://isl.scitech.au.edu/"/>
                   <div className="menu-item-wrap">
                     <span className="menu-item-title">
                       Intelligent Systems Research Laboratory
                     </span>
                   </div>
-                </a>
+                
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
-                <a href="https://portal.scitech.au.edu/idl/">
+                <link href="https://portal.scitech.au.edu/idl/"/>
                   <div className="menu-item-wrap">
                     <span className="menu-item-title">
                       Intelligent Data Analytics Research Laboratory
                     </span>
                   </div>
-                </a>
+                
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
-                <a href="https://portal.scitech.au.edu/dcode/">
+                <link href="https://portal.scitech.au.edu/dcode/"/>
                   <div className="menu-item-wrap">
                     <span className="menu-item-title">d*code</span>
                   </div>
-                </a>
+                
               </li>
             </ul>
           </li>
