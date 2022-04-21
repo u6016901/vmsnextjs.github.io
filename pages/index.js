@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Script from 'next/script'
+
 import Link from 'next/link'
 
 export default function Home() {
@@ -330,10 +330,9 @@ export default function Home() {
                 <div className="top-bar-info">
                   <ul className="info-list">
                     <li className="info-item">
-                      <link href="tel:+8819906886" className="info-link"/>
-                        <i className="info-icon far fa-phone" />
-                        <span className="info-text">(66) 02 300 4543</span>
-                      
+                    <Link href="tel:+8819906886" className="info-icon far fa-phone">
+                        <a>(66) 02 300 4543</a>
+                      </Link>
                     </li>
                     <li className="info-item">
                       <a
@@ -595,17 +594,13 @@ export default function Home() {
                                   >
                                     <div className="elementor-widget-container">
                                       <div className="tm-button-wrapper">
-                                        <a
-                                          href="https://admissions.au.edu/"
-                                          className="tm-button-link tm-button style-flat tm-button-nm smooth-scroll-link"
-                                          role="button"
-                                        >
-                                          <div className="button-content-wrapper">
-                                            <span className="button-text">
-                                              Admission
-                                            </span>
-                                          </div>
-                                        </a>
+                                      <Link href="https://unicamp.thememove.com/main/admissions/"><a
+                                        
+                                        className="tm-button-link tm-button style-flat tm-button-nm icon-right"
+                                        role="button"
+                                      >Admission</a>
+                                        
+                                      </Link>
                                       </div>
                                     </div>
                                   </div>

@@ -1808,7 +1808,7 @@ export default function IT() {
                                                 <div className="tm-modern-heading">
                                                   <div className="heading-primary-wrap">
                                                     <div className="heading-primary elementor-heading-title">
-                                                      You'll also have instant
+                                                      You&apos;ll also have instant
                                                       access to a huge range of
                                                       modern facilities,
                                                       activities and programs
@@ -2701,18 +2701,9 @@ export default function IT() {
                                     <div className="elementor-widget-container">
                                       <div className="unicamp-list">
                                         <div className="item elementor-repeater-item-de25e53">
-                                          <a
-                                            className="link"
-                                            href="/staff"
-                                          >
-                                            <div className="list-header">
-                                              <div className="text-wrap">
-                                                <div className="text">
-                                                  Staff
-                                                </div>
-                                              </div>
-                                            </div>
-                                          </a>
+                                        <Link href="/staff">
+          <a>STAFF</a>
+        </Link>
                                         </div>
                                         <div className="item elementor-repeater-item-4f48939">
                                         <Link href="/news">
