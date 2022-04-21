@@ -2418,17 +2418,11 @@ export default function IT() {
                                 >
                                   <div className="elementor-widget-container">
                                     <div className="tm-button-wrapper">
-                                      <a
-                                        href="/cs"
-                                        className="tm-button-link tm-button style-flat tm-button-custom"
-                                        role="button"
-                                      >
-                                        <div className="button-content-wrapper">
-                                          <span className="button-text">
-                                            Computer Science
-                                          </span>
-                                        </div>
-                                      </a>
+                                    <Link href="/cs">
+          <a>CS</a>
+        
+      
+            </Link>
                                     </div>
                                   </div>
                                 </div>
