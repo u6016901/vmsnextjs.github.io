@@ -3390,7 +3390,7 @@ export default function Home() {
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
           <Link href="/news">
-              <a>className="menu-item-wrap"<span className="menu-item-title">News &amp; Spotlight</span></a>
+              <a><span className="menu-item-title">News &amp; Spotlight</span></a>
               </Link>
             
           </li>

@@ -2409,22 +2409,28 @@ export default function IT() {
                           >
                             <div className="elementor-column-wrap elementor-element-populated">
                               <div className="elementor-widget-wrap">
+                          
                                 <div
                                   className="elementor-element elementor-element-5ce7a14 elementor-visible elementor-widget elementor-widget-tm-button"
                                   data-id="5ce7a14"
                                   data-element_type="widget"
                                   data-settings='{"_animation":"unicampFadeInUp"}'
                                   data-widget_type="tm-button.default"
+                                  
                                 >
                                   <div className="elementor-widget-container">
-                                    <div className="tm-button-wrapper">
-                                    <Link href="/cs">
-          <a>CS</a>
-        
-      
-            </Link>
-                                    </div>
+                                  <div className="tm-button-wrapper">
+                                    <Link href="/cs"><a
+                                      
+                                      className="tm-button-link tm-button style-flat tm-button-custom"
+                                      role="button"
+                                    >Computer Science</a>
+
+                                    </Link>
+                                      
+                                    
                                   </div>
+                                </div>
                                 </div>
                               </div>
                             </div>
