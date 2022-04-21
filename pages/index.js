@@ -3412,8 +3412,8 @@ export default function Home() {
                                                   <div
                                                     className="point_style ihotspot_tooltop_html"
                                                     data-placement="n"
-                                                    data-html='																										<div class="box_view_html">
-										<span class="close_ihp">
+                                                    data-html='																										<div className="box_view_html">
+										<span className="close_ihp">
 											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 											     viewBox="0 0 1000 1000"
 											     enable-background="new 0 0 1000 1000" xml:space="preserve">
@@ -3422,10 +3422,10 @@ export default function Home() {
 													d="M293.4,331.3c0,12,4,22,12,29.9L443.1,497L305.4,632.7c-8,8-12,18-12,29.9c0,10,4,18,12,26c8,8,18,12,28,12c12,0,20-4,27.9-10L499,552.9l135.7,137.7c8,6,16,10,28,10c12,0,21.9-4,27.9-10c8-8,12-18,12-28c0-12-4-21.9-12-29.9L554.9,497l135.7-135.7c8-8,12-18,12-27.9c0-12-4-22-12-29.9c-6-8-16-12-25.9-12c-12,0-21.9,4-29.9,12L499,441.1L363.3,303.4c-8-8-18-12-29.9-12c-10,0-20,4-28,12C297.4,311.4,293.4,321.4,293.4,331.3z"/>
 											</svg>
 										</span>
-													<div class="tm-image-hotspot-content">
-									<h6 class="heading">Assumption University</h6>
+													<div className="tm-image-hotspot-content">
+									<h6 className="heading">Assumption University</h6>
 				
-									<div class="text">88 Moo 8 Bang Na-Trad Km. 26 Bang Sao Thong, Samut Prakan 10570, Thailand</div>							</div>
+									<div className="text">88 Moo 8 Bang Na-Trad Km. 26 Bang Sao Thong, Samut Prakan 10570, Thailand</div>							</div>
 
 												</div>
 																'

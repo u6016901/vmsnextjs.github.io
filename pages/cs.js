@@ -374,9 +374,7 @@ export default function CS() {
     &lt;/style&gt;
   </noScript>
 
-  <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/js/main.min.js' id='unicamp-script-js'></Script>
-    <Script src='https://unicamp.thememove.com/main/wp-content/themes/unicamp/assets/js/woo/general.min.js' id='unicamp-woo-general-js'></Script>
-    <Script id='isw-frontend-js-extra'></Script>
+  
 
   
   
@@ -786,7 +784,7 @@ export default function CS() {
                                   <div className="tm-modern-heading">
                                     <div className="heading-primary-wrap">
                                       <div className="heading-primary elementor-heading-title">
-                                        Courses (Bachlor's Degree)
+                                        Courses (Bachlor&apos;s Degree)
                                       </div>
                                     </div>
                                   </div>
@@ -1326,7 +1324,7 @@ export default function CS() {
                                               <div className="tm-modern-heading">
                                                 <div className="heading-primary-wrap">
                                                   <div className="heading-primary elementor-heading-title">
-                                                    You'll also have instant
+                                                    You&apos;ll also have instant
                                                     access to a huge range of
                                                     modern facilities,
                                                     activities and programs
@@ -1936,17 +1934,15 @@ export default function CS() {
                               >
                                 <div className="elementor-widget-container">
                                   <div className="tm-button-wrapper">
-                                    <a
-                                      href="/it"
+                                    <Link href="it"><a
+                                      
                                       className="tm-button-link tm-button style-flat tm-button-custom"
                                       role="button"
-                                    >
-                                      <div className="button-content-wrapper">
-                                        <span className="button-text">
-                                          Information Technology
-                                        </span>
-                                      </div>
-                                    </a>
+                                    >Information Technology</a>
+
+                                    </Link>
+                                      
+                                    
                                   </div>
                                 </div>
                               </div>
@@ -1967,26 +1963,51 @@ export default function CS() {
 </div>
 
 
-<div id="page-footer-wrapper" class="page-footer-wrapper">
-            <div class="page-footer elementor-footer" id="page-footer">
-                <div data-elementor-type="footer" data-elementor-id="110" class="elementor elementor-110 elementor-location-footer" data-elementor-settings="[]">
-                    <div class="elementor-section-wrap">
-                        <section class="elementor-section elementor-top-section elementor-element elementor-element-d836f75 elementor-section-boxed elementor-section-gap-beside-yes elementor-section-height-default elementor-section-height-default elementor-section-column-vertical-align-stretch"
-                            data-id="d836f75" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-extended">
-                                <div class="elementor-row">
-                                    <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3352a6b" data-id="3352a6b" data-element_type="column">
-                                        <div class="elementor-column-wrap elementor-element-populated">
-                                            <div class="elementor-widget-wrap">
-                                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-6c06c2e elementor-section-gap-beside-no elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-column-vertical-align-stretch"
-                                                    data-id="6c06c2e" data-element_type="section">
-                                                    <div class="elementor-container elementor-column-gap-extended">
-                                                        <div class="elementor-row">
-                                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-64eb365" data-id="64eb365" data-element_type="column">
-                                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                                    <div class="elementor-widget-wrap">
-                                                                        <div class="elementor-element elementor-element-3e5c75b elementor-widget elementor-widget-image" data-id="3e5c75b" data-element_type="widget" data-widget_type="image.default">
-                                                                        <div className="elementor-widget-container">
+<div id="page-footer-wrapper" className="page-footer-wrapper">
+    <div className="page-footer elementor-footer" id="page-footer">
+      <div
+        data-elementor-type="footer"
+        data-elementor-id={110}
+        className="elementor elementor-110 elementor-location-footer"
+        data-elementor-settings="[]"
+      >
+        <div className="elementor-section-wrap">
+          <section
+            className="elementor-section elementor-top-section elementor-element elementor-element-d836f75 elementor-section-boxed elementor-section-gap-beside-yes elementor-section-height-default elementor-section-height-default elementor-section-column-vertical-align-stretch"
+            data-id="d836f75"
+            data-element_type="section"
+            data-settings='{"background_background":"classic"}'
+          >
+            <div className="elementor-container elementor-column-gap-extended">
+              <div className="elementor-row">
+                <div
+                  className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3352a6b"
+                  data-id="3352a6b"
+                  data-element_type="column"
+                >
+                  <div className="elementor-column-wrap elementor-element-populated">
+                    <div className="elementor-widget-wrap">
+                      <section
+                        className="elementor-section elementor-inner-section elementor-element elementor-element-6c06c2e elementor-section-gap-beside-no elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-column-vertical-align-stretch"
+                        data-id="6c06c2e"
+                        data-element_type="section"
+                      >
+                        <div className="elementor-container elementor-column-gap-extended">
+                          <div className="elementor-row">
+                            <div
+                              className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-64eb365"
+                              data-id="64eb365"
+                              data-element_type="column"
+                            >
+                              <div className="elementor-column-wrap elementor-element-populated">
+                                <div className="elementor-widget-wrap">
+                                  <div
+                                    className="elementor-element elementor-element-3e5c75b elementor-widget elementor-widget-image"
+                                    data-id="3e5c75b"
+                                    data-element_type="widget"
+                                    data-widget_type="image.default"
+                                  >
+                                    <div className="elementor-widget-container">
                                       <div className="elementor-image">
                                       <Link href="/">
         
@@ -1997,234 +2018,333 @@ export default function CS() {
                                         </Link>
                                       </div>
                                     </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-988f261 elementor-widget elementor-widget-tm-heading" data-id="988f261" data-element_type="widget" data-widget_type="tm-heading.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="tm-modern-heading">
-
-                                                                                    <div class="heading-primary-wrap">
-                                                                                        <div class="heading-primary elementor-heading-title">VMS transforms lives through accessible, student-centered, high-quality education and meets learners’ needs for a lifetime.</div>
-                                                                                    </div>
-
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-92edb1d elementor-widget elementor-widget-tm-social-networks" data-id="92edb1d" data-element_type="widget" data-widget_type="tm-social-networks.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="tm-social-networks style-large-icons layout-inline">
-                                                                                    <ul class="list">
-                                                                                        <li class="item elementor-repeater-item-a4ebc41">
-                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Twitter" href="https://twitter.com/assumptionu?lang=en" target="_blank" rel="noreferrer">
-                                                                                                <i class="link-icon fab fa-twitter"></i> </a>
-                                                                                        </li>
-                                                                                        <li class="item elementor-repeater-item-3a62d63">
-                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Facebook" href="https://www.facebook.com/vms.au.edu/" target="_blank" rel="noreferrer">
-                                                                                                <i class="link-icon fab fa-facebook-f"></i> </a>
-                                                                                        </li>
-                                                                                        <li class="item elementor-repeater-item-5840c98">
-                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Instagram" href="https://www.instagram.com/accounts/login/?next=/vms.sc/" target="_blank" rel="noreferrer">
-                                                                                                <i class="link-icon fab fa-instagram"></i> </a>
-                                                                                        </li>
-                                                                                        <li class="item elementor-repeater-item-ecbdfc2">
-                                                                                            <a class="link hint--bounce hint--top-right hint--white" aria-label="Youtube Chanel" href="https://www.youtube.com/channel/UCBArL_dL5XiXCiS5pDtyLpQ" target="_blank" rel="noreferrer">
-                                                                                                <i class="link-icon fab fa-youtube"></i> </a>
-                                                                                        </li>
-                                                                                    </ul>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-0995bef elementor-widget elementor-widget-spacer" data-id="0995bef" data-element_type="widget" data-widget_type="spacer.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="elementor-spacer">
-                                                                                    <div class="elementor-spacer-inner"></div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-b67d2aa" data-id="b67d2aa" data-element_type="column">
-                                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                                    <div class="elementor-widget-wrap">
-                                                                        <div class="elementor-element elementor-element-8fd6ff6 elementor-widget elementor-widget-tm-heading" data-id="8fd6ff6" data-element_type="widget" data-widget_type="tm-heading.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="tm-modern-heading">
-
-                                                                                    <div class="heading-primary-wrap">
-                                                                                        <h4 class="heading-primary elementor-heading-title">Get in touch</h4>
-                                                                                    </div>
-
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-6256ffa unicamp-link-animate-border-02 elementor-widget elementor-widget-tm-heading" data-id="6256ffa" data-element_type="widget" data-widget_type="tm-heading.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="tm-modern-heading">
-
-                                                                                    <div class="heading-primary-wrap">
-                                                                                        <div class="heading-primary elementor-heading-title"><link href="tel:66023004543"/><mark>(66) 02 300 4543
-                                                                                        </mark></div>
-                                                                                    </div>
-
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-4e6661f elementor-widget elementor-widget-tm-heading" data-id="4e6661f" data-element_type="widget" data-widget_type="tm-heading.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="tm-modern-heading">
-
-                                                                                    <div class="heading-primary-wrap">
-                                                                                        <div class="heading-primary elementor-heading-title">88 Moo 8 Bang Na-Trad Km. 26 Bang Sao Thong, Samut Prakan 10570, Thailand</div>
-                                                                                    </div>
-
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-                                                                        <div class="elementor-element elementor-element-77afafd elementor-widget elementor-widget-spacer" data-id="77afafd" data-element_type="widget" data-widget_type="spacer.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="elementor-spacer">
-                                                                                    <div class="elementor-spacer-inner"></div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-
-                                                            <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8945ba8" data-id="8945ba8" data-element_type="column">
-                                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                                    <div class="elementor-widget-wrap">
-                                                                        <div class="elementor-element elementor-element-56f8ba6 elementor-widget elementor-widget-tm-heading" data-id="56f8ba6" data-element_type="widget" data-widget_type="tm-heading.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="tm-modern-heading">
-
-                                                                                    <div class="heading-primary-wrap">
-                                                                                        <h4 class="heading-primary elementor-heading-title">Links</h4>
-                                                                                    </div>
-
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-95e9817 unicamp-list-layout-block elementor-widget elementor-widget-tm-list" data-id="95e9817" data-element_type="widget" data-widget_type="tm-list.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="unicamp-list">
-                                                                                    <div class="item elementor-repeater-item-de25e53">
-
-                                                                                        <a class="link" href="/staff">
-                                                                                            <div class="list-header">
-                                                                                                <div class="text-wrap">
-                                                                                                    <div class="text">Staff</div>
-                                                                                                </div>
-                                                                                            </div>
-
-
-                                                                                        </a>
-                                                                                    </div>
-                                                                                    <div class="item elementor-repeater-item-4f48939">
-
-                                                                                        <a class="link" href="/news">
-                                                                                            <div class="list-header">
-                                                                                                <div class="text-wrap">
-                                                                                                    <div class="text">News &amp; Spotlight</div>
-                                                                                                </div>
-                                                                                            </div>
-
-
-                                                                                        </a>
-                                                                                    </div>
-                                                                                    <div class="item elementor-repeater-item-882f063">
-
-                                                                                        <a class="link" href="/alumni">
-                                                                                            <div class="list-header">
-                                                                                                <div class="text-wrap">
-                                                                                                    <div class="text">Alumni</div>
-                                                                                                </div>
-                                                                                            </div>
-
-
-                                                                                        </a>
-                                                                                    </div>
-                                                                                    <div class="item elementor-repeater-item-9052523">
-
-                                                                                        <a class="link" href="/cs">
-                                                                                            <div class="list-header">
-                                                                                                <div class="text-wrap">
-                                                                                                    <div class="text">CS</div>
-                                                                                                </div>
-                                                                                            </div>
-
-
-                                                                                        </a>
-                                                                                    </div>
-                                                                                    <div class="item elementor-repeater-item-450b61a">
-
-                                                                                        <a class="link" href="/it">
-                                                                                            <div class="list-header">
-                                                                                                <div class="text-wrap">
-                                                                                                    <div class="text">IT</div>
-                                                                                                </div>
-                                                                                            </div>
-
-
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="elementor-element elementor-element-832f692 elementor-widget elementor-widget-spacer" data-id="832f692" data-element_type="widget" data-widget_type="spacer.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="elementor-spacer">
-                                                                                    <div class="elementor-spacer-inner"></div>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
-                                                <section class="elementor-section elementor-inner-section elementor-element elementor-element-23d0400 elementor-section-gap-beside-no elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-column-vertical-align-stretch"
-                                                    data-id="23d0400" data-element_type="section">
-                                                    <div class="elementor-container elementor-column-gap-extended">
-                                                        <div class="elementor-row">
-                                                            <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5f563e9" data-id="5f563e9" data-element_type="column">
-                                                                <div class="elementor-column-wrap elementor-element-populated">
-                                                                    <div class="elementor-widget-wrap">
-                                                                        <div class="elementor-element elementor-element-233eba6 elementor-widget elementor-widget-tm-heading" data-id="233eba6" data-element_type="widget" data-widget_type="tm-heading.default">
-                                                                            <div class="elementor-widget-container">
-                                                                                <div class="tm-modern-heading">
-
-                                                                                    <div class="heading-primary-wrap">
-                                                                                        <div class="heading-primary elementor-heading-title">&copy; 2022 Vincent Mary School of Science and Technology</div>
-                                                                                    </div>
-
-
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </section>
-                                            </div>
+                                  </div>
+                                  <div
+                                    className="elementor-element elementor-element-988f261 elementor-widget elementor-widget-tm-heading"
+                                    data-id="988f261"
+                                    data-element_type="widget"
+                                    data-widget_type="tm-heading.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="tm-modern-heading">
+                                        <div className="heading-primary-wrap">
+                                          <div className="heading-primary elementor-heading-title">
+                                            VMS transforms lives through
+                                            accessible, student-centered,
+                                            high-quality education and meets
+                                            learners&apos; needs for a lifetime.
+                                          </div>
                                         </div>
+                                      </div>
                                     </div>
+                                  </div>
+                                  <div
+                                    className="elementor-element elementor-element-92edb1d elementor-widget elementor-widget-tm-social-networks"
+                                    data-id="92edb1d"
+                                    data-element_type="widget"
+                                    data-widget_type="tm-social-networks.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="tm-social-networks style-large-icons layout-inline">
+                                        <ul className="list">
+                                          <li className="item elementor-repeater-item-a4ebc41">
+                                            <a
+                                              className="link hint--bounce hint--top-right hint--white"
+                                              aria-label="Twitter"
+                                              href="https://twitter.com/assumptionu?lang=en"
+                                              target="_blank"
+                                              rel="noreferrer"
+                                            >
+                                              <i className="link-icon fab fa-twitter" />{" "}
+                                            </a>
+                                          </li>
+                                          <li className="item elementor-repeater-item-3a62d63">
+                                            <a
+                                              className="link hint--bounce hint--top-right hint--white"
+                                              aria-label="Facebook"
+                                              href="https://www.facebook.com/vms.au.edu/"
+                                              target="_blank"
+                                              rel="noreferrer"
+                                            >
+                                              <i className="link-icon fab fa-facebook-f" />{" "}
+                                            </a>
+                                          </li>
+                                          <li className="item elementor-repeater-item-5840c98">
+                                            <a
+                                              className="link hint--bounce hint--top-right hint--white"
+                                              aria-label="Instagram"
+                                              href="https://www.instagram.com/accounts/login/?next=/vms.sc/"
+                                              target="_blank"
+                                              rel="noreferrer"
+                                            >
+                                              <i className="link-icon fab fa-instagram" />{" "}
+                                            </a>
+                                          </li>
+                                          <li className="item elementor-repeater-item-ecbdfc2">
+                                            <a
+                                              className="link hint--bounce hint--top-right hint--white"
+                                              aria-label="Youtube Chanel"
+                                              href="https://www.youtube.com/channel/UCBArL_dL5XiXCiS5pDtyLpQ"
+                                              target="_blank"
+                                              rel="noreferrer"
+                                            >
+                                              <i className="link-icon fab fa-youtube" />{" "}
+                                            </a>
+                                          </li>
+                                        </ul>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className="elementor-element elementor-element-0995bef elementor-widget elementor-widget-spacer"
+                                    data-id="0995bef"
+                                    data-element_type="widget"
+                                    data-widget_type="spacer.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="elementor-spacer">
+                                        <div className="elementor-spacer-inner" />
+                                      </div>
+                                    </div>
+                                  </div>
                                 </div>
+                              </div>
                             </div>
-                        </section>
+                            <div
+                              className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-b67d2aa"
+                              data-id="b67d2aa"
+                              data-element_type="column"
+                            >
+                              <div className="elementor-column-wrap elementor-element-populated">
+                                <div className="elementor-widget-wrap">
+                                  <div
+                                    className="elementor-element elementor-element-8fd6ff6 elementor-widget elementor-widget-tm-heading"
+                                    data-id="8fd6ff6"
+                                    data-element_type="widget"
+                                    data-widget_type="tm-heading.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="tm-modern-heading">
+                                        <div className="heading-primary-wrap">
+                                          <h4 className="heading-primary elementor-heading-title">
+                                            Get in touch
+                                          </h4>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className="elementor-element elementor-element-6256ffa unicamp-link-animate-border-02 elementor-widget elementor-widget-tm-heading"
+                                    data-id="6256ffa"
+                                    data-element_type="widget"
+                                    data-widget_type="tm-heading.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="tm-modern-heading">
+                                        <div className="heading-primary-wrap">
+                                          <div className="heading-primary elementor-heading-title">
+                                            <link href="tel:66023004543"/>
+                                              <mark>(66) 02 300 4543</mark>
+                                            
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className="elementor-element elementor-element-4e6661f elementor-widget elementor-widget-tm-heading"
+                                    data-id="4e6661f"
+                                    data-element_type="widget"
+                                    data-widget_type="tm-heading.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="tm-modern-heading">
+                                        <div className="heading-primary-wrap">
+                                          <div className="heading-primary elementor-heading-title">
+                                            88 Moo 8 Bang Na-Trad Km. 26 Bang
+                                            Sao Thong, Samut Prakan 10570,
+                                            Thailand
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className="elementor-element elementor-element-77afafd elementor-widget elementor-widget-spacer"
+                                    data-id="77afafd"
+                                    data-element_type="widget"
+                                    data-widget_type="spacer.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="elementor-spacer">
+                                        <div className="elementor-spacer-inner" />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              className="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8945ba8"
+                              data-id="8945ba8"
+                              data-element_type="column"
+                            >
+                              <div className="elementor-column-wrap elementor-element-populated">
+                                <div className="elementor-widget-wrap">
+                                  <div
+                                    className="elementor-element elementor-element-56f8ba6 elementor-widget elementor-widget-tm-heading"
+                                    data-id="56f8ba6"
+                                    data-element_type="widget"
+                                    data-widget_type="tm-heading.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="tm-modern-heading">
+                                        <div className="heading-primary-wrap">
+                                          <h4 className="heading-primary elementor-heading-title">
+                                            Links
+                                          </h4>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className="elementor-element elementor-element-95e9817 unicamp-list-layout-block elementor-widget elementor-widget-tm-list"
+                                    data-id="95e9817"
+                                    data-element_type="widget"
+                                    data-widget_type="tm-list.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="unicamp-list">
+                                        <div className="item elementor-repeater-item-de25e53">
+                                          <a
+                                            className="link"
+                                            href="/staff"
+                                          >
+                                            <div className="list-header">
+                                              <div className="text-wrap">
+                                                <div className="text">
+                                                  Staff
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+                                        <div className="item elementor-repeater-item-4f48939">
+                                          <a
+                                            className="link"
+                                            href="/news"
+                                          >
+                                            <div className="list-header">
+                                              <div className="text-wrap">
+                                                <div className="text">
+                                                  News &amp; Spotlight
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+                                        <div className="item elementor-repeater-item-882f063">
+                                          <a
+                                            className="link"
+                                            href="/alumni"
+                                          >
+                                            <div className="list-header">
+                                              <div className="text-wrap">
+                                                <div className="text">
+                                                  Alumni
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+                                        <div className="item elementor-repeater-item-9052523">
+                                          <a className="link" href="/cs">
+                                            <div className="list-header">
+                                              <div className="text-wrap">
+                                                <div className="text">CS</div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+                                        <div className="item elementor-repeater-item-450b61a">
+                                          <a className="link" href="/it">
+                                            <div className="list-header">
+                                              <div className="text-wrap">
+                                                <div className="text">IT</div>
+                                              </div>
+                                            </div>
+                                          </a>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className="elementor-element elementor-element-832f692 elementor-widget elementor-widget-spacer"
+                                    data-id="832f692"
+                                    data-element_type="widget"
+                                    data-widget_type="spacer.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="elementor-spacer">
+                                        <div className="elementor-spacer-inner" />
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section
+                        className="elementor-section elementor-inner-section elementor-element elementor-element-23d0400 elementor-section-gap-beside-no elementor-section-boxed elementor-section-height-default elementor-section-height-default elementor-section-column-vertical-align-stretch"
+                        data-id="23d0400"
+                        data-element_type="section"
+                      >
+                        <div className="elementor-container elementor-column-gap-extended">
+                          <div className="elementor-row">
+                            <div
+                              className="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-5f563e9"
+                              data-id="5f563e9"
+                              data-element_type="column"
+                            >
+                              <div className="elementor-column-wrap elementor-element-populated">
+                                <div className="elementor-widget-wrap">
+                                  <div
+                                    className="elementor-element elementor-element-233eba6 elementor-widget elementor-widget-tm-heading"
+                                    data-id="233eba6"
+                                    data-element_type="widget"
+                                    data-widget_type="tm-heading.default"
+                                  >
+                                    <div className="elementor-widget-container">
+                                      <div className="tm-modern-heading">
+                                        <div className="heading-primary-wrap">
+                                          <div className="heading-primary elementor-heading-title">
+                                            © 2022 Vincent Mary School of
+                                            Science and Technology
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
+          </section>
         </div>
+      </div>
+    </div>
+  </div>
+
+
 
   
   <div
@@ -2253,22 +2373,26 @@ export default function CS() {
       <div className="page-mobile-menu-content">
         <ul id="mobile-menu-primary" className="menu__container">
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-53 level-1">
-            <link href="/"/>
-              <div className="menu-item-wrap"><span className="menu-item-title">Home</span>
-              </div>
+          <Link href="/">
+          <a>Home</a>
+        
+      
+            </Link>
             
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
-            <link href="/news"/>
-              <div className="menu-item-wrap"><span className="menu-item-title">News &amp; Spotlight</span>
-              </div>
-            
+          <Link href="/news">
+          <a>News &amp; Spotlight</a>
+        
+      
+            </Link>
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-            <link href="https://unicamp.thememove.com/main/admissions/"/>
-              <div className="menu-item-wrap">
-                <span className="menu-item-title">Admissions</span>
-              </div>
+          <Link href="https://unicamp.thememove.com/main/admissions/">
+          <a>Admission</a>
+        
+      
+            </Link>
             
           </li>
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
@@ -2280,28 +2404,27 @@ export default function CS() {
             </a>
             <ul className="sub-menu children simple-menu">
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
-                <link href="http://isl.scitech.au.edu/"/>
-                  <div className="menu-item-wrap">
-                    <span className="menu-item-title">
-                      Intelligent Systems Research Laboratory
-                    </span>
-                  </div>
+              <Link href="http://isl.scitech.au.edu/">
+          <a>Intelligent Systems Research Laboratory</a>
+        
+      
+            </Link>
                 
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
-                <link href="https://portal.scitech.au.edu/idl/"/>
-                  <div className="menu-item-wrap">
-                    <span className="menu-item-title">
-                      Intelligent Data Analytics Research Laboratory
-                    </span>
-                  </div>
+              <Link href="https://portal.scitech.au.edu/idl/">
+          <a>Intelligent Data Analytics Research Laboratory</a>
+        
+      
+            </Link>
                 
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
-                <link href="https://portal.scitech.au.edu/dcode/"/>
-                  <div className="menu-item-wrap">
-                    <span className="menu-item-title">d*code</span>
-                  </div>
+              <Link href="https://portal.scitech.au.edu/dcode/">
+          <a>d*code</a>
+        
+      
+            </Link>
                 
               </li>
             </ul>
@@ -2357,7 +2480,6 @@ export default function CS() {
     </span>
   </div>
   <div id="powerTip" />
-  
 </>
 
 

@@ -1268,7 +1268,7 @@ export default function Posts() {
                                             VMS transforms lives through
                                             accessible, student-centered,
                                             high-quality education and meets
-                                            learners’ needs for a lifetime.
+                                            learners&apos; needs for a lifetime.
                                           </div>
                                         </div>
                                       </div>
@@ -1581,7 +1581,7 @@ export default function Posts() {
   </div>
 
 
-  
+
   
   <div
     id="page-mobile-main-menu"
@@ -1609,22 +1609,26 @@ export default function Posts() {
       <div className="page-mobile-menu-content">
         <ul id="mobile-menu-primary" className="menu__container">
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-53 level-1">
-            <link href="/"/>
-              <div className="menu-item-wrap"><span className="menu-item-title">Home</span>
-              </div>
+          <Link href="/">
+          <a>Home</a>
+        
+      
+            </Link>
             
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-461 level-1">
-            <link href="/news"/>
-              <div className="menu-item-wrap"><span className="menu-item-title">News &amp; Spotlight</span>
-              </div>
-            
+          <Link href="/news">
+          <a>News &amp; Spotlight</a>
+        
+      
+            </Link>
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-            <link href="https://unicamp.thememove.com/main/admissions/"/>
-              <div className="menu-item-wrap">
-                <span className="menu-item-title">Admissions</span>
-              </div>
+          <Link href="https://unicamp.thememove.com/main/admissions/">
+          <a>Admission</a>
+        
+      
+            </Link>
             
           </li>
           <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-45 level-1">
@@ -1636,28 +1640,27 @@ export default function Posts() {
             </a>
             <ul className="sub-menu children simple-menu">
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1782">
-                <link href="http://isl.scitech.au.edu/"/>
-                  <div className="menu-item-wrap">
-                    <span className="menu-item-title">
-                      Intelligent Systems Research Laboratory
-                    </span>
-                  </div>
+              <Link href="http://isl.scitech.au.edu/">
+          <a>Intelligent Systems Research Laboratory</a>
+        
+      
+            </Link>
                 
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1066">
-                <link href="https://portal.scitech.au.edu/idl/"/>
-                  <div className="menu-item-wrap">
-                    <span className="menu-item-title">
-                      Intelligent Data Analytics Research Laboratory
-                    </span>
-                  </div>
+              <Link href="https://portal.scitech.au.edu/idl/">
+          <a>Intelligent Data Analytics Research Laboratory</a>
+        
+      
+            </Link>
                 
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1481">
-                <link href="https://portal.scitech.au.edu/dcode/"/>
-                  <div className="menu-item-wrap">
-                    <span className="menu-item-title">d*code</span>
-                  </div>
+              <Link href="https://portal.scitech.au.edu/dcode/">
+          <a>d*code</a>
+        
+      
+            </Link>
                 
               </li>
             </ul>
