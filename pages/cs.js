@@ -4,15 +4,16 @@ import Script from "next/script";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "../components/Footer";
-import DefaultHeader from "../components/DefaultHeader";
 import TopNav from "../components/TopNav";
 
 export default function CS() {
   return (
     <>
-      <DefaultHeader />
+      
+      
       <div className="content-wrapper">
         <TopNav />
+        
         <header
           id="page-header"
           className="page-header header-01 header-dark nav-links-hover-style-01 header-sticky-dark-logo"

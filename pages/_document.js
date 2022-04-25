@@ -188,7 +188,14 @@ export default function Document() {
         <link rel="stylesheet" id="video-conferencing-with-zoom-api-css" href="./home/style.min.css" media="all" />
       </Head>
 
-      <body>
+      <body
+        class="page-template-default page page-id-1380 wp-embed-responsive theme-unicamp woocommerce-js desktop mobile-menu-push-to-left header-sticky-both wide page-has-no-sidebar title-bar-02 title-bar-has-post-title woocommerce elementor-default elementor-kit-22 elementor-page elementor-page-1380 e--ua-blink e--ua-edge e--ua-webkit loaded mobile-menu"
+        data-site-width="1200px"
+        data-content-width="1200"
+        data-font="Gordita Helvetica, Arial, sans-serif"
+        data-header-sticky-height="80"
+        data-elementor-device-mode="tablet"
+      >
         <Main />
 
         <NextScript />

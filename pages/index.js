@@ -3,14 +3,12 @@ import styles from "../styles/Home.module.css";
 
 import Head from "next/head";
 import Link from "next/link";
-import DefaultHeader from "../components/DefaultHeader";
 import TopNav from "../components/TopNav";
 import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <>
-      <DefaultHeader />
       <div id="page" className="site" style={{ minHeight: 509 }}>
         <div className="content-wrapper">
           <TopNav />
