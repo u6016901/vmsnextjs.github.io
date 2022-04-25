@@ -370,10 +370,10 @@ export default function IT() {
     name="msapplication-TileImage"
     content="https://unicamp.thememove.com/main/wp-content/themes/unicamp-child-demo/assets/images/favicon/favicon-270x270.png"
   />
-  <noScript>
+  <noscript>
     &lt;style&gt;.woocommerce-product-gallery{"{"} opacity: 1 !important; {"}"}
     &lt;/style&gt;
-  </noScript>
+  </noscript>
 
   
 
