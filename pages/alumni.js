@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Script from 'next/Script'
 import Link from 'next/link'
 import TopNav2 from "../components/TopNav2";
 import Footer2 from "../components/Footer2";
@@ -22,10 +21,7 @@ export default function Alumni() {
   
 
     
-  <noscript>
-    &lt;style&gt;.woocommerce-product-gallery{"{"} opacity: 1 !important; {"}"}
-    &lt;/style&gt;
-  </noscript>
+  
 
   
 
