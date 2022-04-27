@@ -186,10 +186,8 @@ export default function Document() {
         <link rel="stylesheet" id="unicamp-child-demo-style-css" href="./home/style.css" media="all" />
         <link rel="stylesheet" id="unicamp-events-manager-css" href="./home/events-manager.css" media="all" />
         <link rel="stylesheet" id="video-conferencing-with-zoom-api-css" href="./home/style.min.css" media="all" />
-        <script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
-    <script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
-    <script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rbtools.min.js' id='tp-tools-js'></script>
-    <script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rs6.min.js' id='revmin-js'></script>
+        
+    
     <link rel="https://api.w.org/" href="https://unicamp.thememove.com/main/wp-json/" />
     <link rel="alternate" type="application/json" href="https://unicamp.thememove.com/main/wp-json/wp/v2/pages/2837" />
     <link rel="canonical" href="https://unicamp.thememove.com/main/college-02/" />

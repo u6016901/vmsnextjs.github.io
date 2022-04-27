@@ -900,10 +900,7 @@ export default function News() {
     <link rel='stylesheet' id='unicamp-child-demo-style-css' href='./alumni/style.css' media='all' />
     <link rel='stylesheet' id='unicamp-events-manager-css' href='./alumni/events-manager.css' media='all' />
     <link rel='stylesheet' id='video-conferencing-with-zoom-api-css' href='./alumni/style.min.css' media='all' />
-    <script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery.min.js' id='jquery-core-js'></script>
-    <script src='https://unicamp.thememove.com/main/wp-includes/js/jquery/jquery-migrate.min.js' id='jquery-migrate-js'></script>
-    <script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rbtools.min.js' id='tp-tools-js'></script>
-    <script src='https://unicamp.thememove.com/main/wp-content/plugins/revslider/public/assets/js/rs6.min.js' id='revmin-js'></script>
+    
     <link rel="https://api.w.org/" href="https://unicamp.thememove.com/main/wp-json/" />
     <link rel="alternate" type="application/json" href="https://unicamp.thememove.com/main/wp-json/wp/v2/pages/1458" />
     <link rel="canonical" href="https://unicamp.thememove.com/main/alumni/" />
