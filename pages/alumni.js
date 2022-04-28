@@ -433,7 +433,7 @@ export default function Alumni() {
                                                           fully alumni of the
                                                           university including
                                                           access journals and
-                                                          join UniCamp clubs.{" "}
+                                                          join VMS clubs.{" "}
                                                         </div>
                                                       </div>
                                                     </div>
@@ -576,7 +576,7 @@ export default function Alumni() {
                                       <div className="heading-primary-wrap">
                                         <h3 className="heading-primary elementor-heading-title">
                                           Get the latest{" "}
-                                          <mark>UniCamp news</mark> delivered to
+                                          <mark>VMS news</mark> delivered to
                                           you inbox
                                         </h3>
                                       </div>
