@@ -59,7 +59,7 @@ export default function Home() {
                                   <Link href="/news">News</Link>
                                 </li>
                                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-                                  <Link href="https://unicamp.thememove.com/main/admissions/">
+                                  <Link href="https://admissions.au.edu/">
                                     <a>Admission</a>
                                   </Link>
                                 </li>
@@ -183,7 +183,7 @@ export default function Home() {
                                       >
                                         <div className="elementor-widget-container">
                                           <div className="tm-button-wrapper">
-                                            <Link href="https://unicamp.thememove.com/main/admissions/">
+                                            <Link href="https://admissions.au.edu/">
                                               <a
                                                 className="tm-button-link tm-button style-flat tm-button-nm icon-right"
                                                 role="button"
@@ -746,7 +746,7 @@ export default function Home() {
                                                                       </a>
                                                                     </div>
                                                                     <h3 className="post-title post-title-2-rows">
-                                                                      <Link href="/news">
+                                                                      <Link href="/posts">
                                                                         <a>
                                                                           Most students pleased with their digital
                                                                           learning
@@ -812,7 +812,7 @@ export default function Home() {
                                                                       </a>
                                                                     </div>
                                                                     <h3 className="post-title post-title-2-rows">
-                                                                      <Link href="/news">
+                                                                      <Link href="/posts">
                                                                         <a>
                                                                           Gender inequality in higher education persists
                                                                         </a>
@@ -877,7 +877,7 @@ export default function Home() {
                                                                       </a>
                                                                     </div>
                                                                     <h3 className="post-title post-title-2-rows">
-                                                                      <Link href="/news">
+                                                                      <Link href="/posts">
                                                                         <a>
                                                                           Most students pleased with their digital
                                                                           learning
@@ -943,7 +943,7 @@ export default function Home() {
                                                                       </a>
                                                                     </div>
                                                                     <h3 className="post-title post-title-2-rows">
-                                                                      <Link href="/news">
+                                                                      <Link href="/posts">
                                                                         <a>
                                                                           Most students pleased with their digital
                                                                           learning
@@ -2280,7 +2280,7 @@ export default function Home() {
                 </Link>
               </li>
               <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-                <link href="https://unicamp.thememove.com/main/admissions/" />
+                <link href="https://admissions.au.edu/" />
                 <div className="menu-item-wrap">
                   <span className="menu-item-title">Admissions</span>
                 </div>

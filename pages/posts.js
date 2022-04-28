@@ -516,7 +516,7 @@ export default function Posts() {
             </Link>
           </li>
           <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-695 level-1">
-          <Link href="https://unicamp.thememove.com/main/admissions/">
+          <Link href="https://admissions.au.edu/">
           <a>Admission</a>
         
       
