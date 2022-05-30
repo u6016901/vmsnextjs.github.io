@@ -3,8 +3,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Script from 'next/script'
 import Link from 'next/link'
-import TopNav2 from "../components/TopNav2";
-import Footer2 from "../components/Footer2";
+import TopNav2 from "../../components/TopNav2";
+import Footer2 from "../../components/Footer2";
 
 export default function IT() {
   return (
@@ -1304,7 +1304,7 @@ export default function IT() {
                                                       electronically to VMS,
                                                       send to{" "}
                                                       <mark>
-                                                        info@scitech.au.edu
+                                                        info@vms.au.edu
                                                       </mark>
                                                       . These must be sent by
                                                       the school in which you
@@ -1779,7 +1779,7 @@ export default function IT() {
                                                       electronically to VMS,
                                                       send to{" "}
                                                       <mark>
-                                                        info@scitech.au.edu
+                                                        info@vms.au.edu
                                                       </mark>
                                                       . These must be sent by
                                                       the school in which you

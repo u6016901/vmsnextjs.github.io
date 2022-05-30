@@ -241,7 +241,7 @@ export default function Alumni() {
                                       <img
                                         width={1115}
                                         height={716}
-                                        src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/alumni-image-01.jpg"
+                                        src="alumni/alumni-image-01.jpg"
                                         className="attachment-full size-full"
                                         sizes="(max-width: 1115px) 100vw, 1115px"
                                       />{" "}
@@ -362,7 +362,7 @@ export default function Alumni() {
                                       <img
                                         width={180}
                                         height={242}
-                                        src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/dark-simple-logo.png"
+                                        src="images/dark-simple-logo.png"
                                         className="attachment-full size-full"
                                         alt=""
                                         loading="lazy"

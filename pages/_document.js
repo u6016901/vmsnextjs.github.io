@@ -1,5 +1,6 @@
 // pages/_document.js
 import { Html, Head, Main, NextScript } from "next/document";
+import CookieConsent from "react-cookie-consent";
 
 export default function Document() {
   return (
@@ -186,14 +187,18 @@ export default function Document() {
         <link rel="stylesheet" id="unicamp-child-demo-style-css" href="./home/style.css" media="all" />
         <link rel="stylesheet" id="unicamp-events-manager-css" href="./home/events-manager.css" media="all" />
         <link rel="stylesheet" id="video-conferencing-with-zoom-api-css" href="./home/style.min.css" media="all" />
-        
-    
-    <link rel="https://api.w.org/" href="https://unicamp.thememove.com/main/wp-json/" />
-    <link rel="alternate" type="application/json" href="https://unicamp.thememove.com/main/wp-json/wp/v2/pages/2837" />
-    <link rel="canonical" href="https://unicamp.thememove.com/main/college-02/" />
-    <meta name="msapplication-TileImage" content="https://unicamp.thememove.com/main/wp-content/themes/unicamp-child-demo/assets/images/favicon/favicon-270x270.png"></meta>
 
-        
+        <link rel="https://api.w.org/" href="https://unicamp.thememove.com/main/wp-json/" />
+        <link
+          rel="alternate"
+          type="application/json"
+          href="https://unicamp.thememove.com/main/wp-json/wp/v2/pages/2837"
+        />
+        <link rel="canonical" href="https://unicamp.thememove.com/main/college-02/" />
+        <meta
+          name="msapplication-TileImage"
+          content="https://unicamp.thememove.com/main/wp-content/themes/unicamp-child-demo/assets/images/favicon/favicon-270x270.png"
+        ></meta>
       </Head>
 
       <body
@@ -204,9 +209,16 @@ export default function Document() {
         data-header-sticky-height="80"
         data-elementor-device-mode="tablet"
       >
-        <body className="page-template-default page page-id-692 wp-embed-responsive theme-unicamp woocommerce-no-js desktop desktop-menu mobile-menu-push-to-left header-sticky-both wide page-has-no-sidebar title-bar-01 title-bar-has-post-title woocommerce elementor-default elementor-kit-22 elementor-page elementor-page-692"
-    data-site-width="1200px" data-content-width="1200" data-font="Gordita Helvetica, Arial, sans-serif" data-header-sticky-height="80"></body>
+        {/* <div
+          className="page-template-default page page-id-692 wp-embed-responsive theme-unicamp woocommerce-no-js desktop desktop-menu mobile-menu-push-to-left header-sticky-both wide page-has-no-sidebar title-bar-01 title-bar-has-post-title woocommerce elementor-default elementor-kit-22 elementor-page elementor-page-692"
+          data-site-width="1200px"
+          data-content-width="1200"
+          data-font="Gordita Helvetica, Arial, sans-serif"
+          data-header-sticky-height="80"
+        >
+        </div> */}
         <Main />
+        <CookieConsent>This website uses cookies to enhance the user experience.</CookieConsent>
 
         <NextScript />
       </body>

@@ -26,8 +26,8 @@ function NavSec() {
                       </div>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1460 level-1">
-                      <Link href="/staff">
-                        <a>STAFF</a>
+                      <Link href="/faculty">
+                        <a>Faculty</a>
                       </Link>
                       <div className="menu-item-wrap">
                         

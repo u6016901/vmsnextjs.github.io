@@ -56,11 +56,11 @@ function TopNav2() {
                       </div>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1460 level-1">
-                      <Link href="/staff">
-                        <a>STAFF</a>
+                      <Link href="/faculty">
+                        <a>Faculty</a>
                       </Link>
                       <div className="menu-item-wrap">
-                        <span className="menu-item-title">STAFF</span>
+                        <span className="menu-item-title">Faculty</span>
                       </div>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-886 level-1">

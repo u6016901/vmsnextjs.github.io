@@ -51,7 +51,7 @@ function Footer() {
                               <img
                                 width={448}
                                 height={136}
-                                src="https://raw.githubusercontent.com/u6016901/u6016901.github.io/main/pictures/light-logo(1).png"
+                                src="home/light-logo(1).png"
                                 alt="Main"
                                 className="attachment-full size-full"
                                 sizes="(max-width: 448px) 100vw, 448px"
@@ -99,10 +99,10 @@ function Footer() {
                                           <div className="heading-primary-wrap">
                                             <div className="heading-primary elementor-heading-title">
                                               <a
-                                                href="tel:66023004543
+                                                href="tel:+6627232380
                                                                 "
                                               >
-                                                <mark>(66) 02 300 4543</mark>
+                                                <mark>(66) 02 723 2380</mark>
                                               </a>
                                             </div>
                                           </div>
@@ -228,7 +228,7 @@ function Footer() {
     <Link href="/it"><a>IT</a></Link>
     </li>
     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1460 level-1">
-    <Link href="/staff"><a>STAFF</a></Link>
+    <Link href="/faculty"><a>Faculty</a></Link>
     </li>
     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-886 level-1">
     <Link href="/alumni"><a>Alumni</a></Link>

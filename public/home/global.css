@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .elementor-widget-heading .elementor-heading-title {
     color: var( --e-global-color-primary );
     font-weight: var( --e-global-typography-primary-font-weight );

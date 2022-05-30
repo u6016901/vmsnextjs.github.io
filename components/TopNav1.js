@@ -11,14 +11,14 @@ function TopNav1() {
               <div className="top-bar-info">
                 <ul className="info-list">
                   <li className="info-item">
-                    <Link href="tel:+8819906886" className="info-icon far fa-phone">
-                      <a>(66) 02 300 4543</a>
+                    <Link href="tel:+6627232380" className="info-icon far fa-phone">
+                      <a>(66) 02 723 2380</a>
                     </Link>
                   </li>
                   <li className="info-item">
-                    <a href="mailto:info@scitech.au.edu" className="info-link">
+                    <a href="mailto:info@vms.au.edu" className="info-link">
                       <i className="info-icon far fa-envelope" />
-                      <span className="info-text">info@scitech.au.edu</span>
+                      <span className="info-text">info@vms.au.edu</span>
                     </a>
                   </li>
                 </ul>
@@ -55,11 +55,11 @@ function TopNav1() {
                       </div>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1460 level-1">
-                      <Link href="/staff">
-                        <a>STAFF</a>
+                      <Link href="/faculty">
+                        <a>Faculty</a>
                       </Link>
                       <div className="menu-item-wrap">
-                        <span className="menu-item-title">STAFF</span>
+                        <span className="menu-item-title">Faculty</span>
                       </div>
                     </li>
                     <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-886 level-1">
